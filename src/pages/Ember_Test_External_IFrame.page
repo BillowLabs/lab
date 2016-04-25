@@ -1,0 +1,66 @@
+<apex:page showHeader="true" sidebar="true" standardStyleSheets="false">
+
+	<apex:includeScript value="{!URLFOR($Resource.OrgAssets, 'iframeResizer.min.js')}"/>
+	<apex:remoteObjects jsNamespace="JSObjects">
+		<apex:remoteObjectModel name="Account" fields="Name,Id" />
+	</apex:remoteObjects>
+
+
+	<apex:iframe id="appframe" src="{!URLFOR($Resource.OrgAssets, 'index.html')}" scrolling="no"  />
+	<div id="loadingMessage"></div>
+
+	<style>
+		iframe {
+			width:100%
+		}
+
+		#loadingMessage {
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			z-index: 1000;
+			background: #ccc;
+			background:url(http://sierrafire.cr.usgs.gov/images/loading.gif) center center no-repeat;
+		}
+	</style>
+
+	<script>
+		// TODO: move starting location to component
+		var name = window.location.hash.substring(1)
+		var initialRoute = name || '/account';
+
+		var loadingMessage = document.getElementById('loadingMessage')
+		var activated = false;
+
+		var link_SFDC = function(link) {
+			console.log('Linking SFDC')
+
+			link.registrations['route:basic'].reopen({
+				activate: function() {
+					this._super(...arguments)
+					if(activated) {
+						return;
+					}
+
+					this.router.router.transitionTo(initialRoute)
+					loadingMessage.style.display = 'none'
+					activated = true;
+				}
+			})
+		}
+
+		var connect_SFDC = function() {
+			console.log('Connected to SFDC')
+			return JSObjects
+		}
+
+		var navigate_SFDC = function(url) {
+			history.replaceState(null, null, '#' + url)
+		}
+
+		iFrameResize()
+	</script>
+
+</apex:page>
