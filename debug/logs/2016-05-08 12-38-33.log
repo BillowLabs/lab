@@ -1,0 +1,40 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+10:38:32.20 (20225669)|EXECUTION_STARTED
+10:38:32.20 (20256379)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000AqZWo|Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs
+10:38:32.20 (25622566)|SOQL_EXECUTE_BEGIN|[12]|Aggregations:0|SELECT Id FROM Account
+10:38:32.20 (29171600)|SOQL_EXECUTE_END|[12]|Rows:0
+10:38:32.20 (29272645)|USER_DEBUG|[13]|DEBUG|QUERY: SELECT Id FROM Account
+10:38:32.33 (33630883)|CUMULATIVE_LIMIT_USAGE
+10:38:32.33 (33630883)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:38:32.33 (33630883)|TESTING_LIMITS
+10:38:32.33 (33630883)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:38:32.33 (33630883)|CUMULATIVE_LIMIT_USAGE_END
+
+10:38:32.20 (33679609)|CODE_UNIT_FINISHED|Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs
+10:38:32.20 (34707398)|EXECUTION_FINISHED

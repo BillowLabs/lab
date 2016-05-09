@@ -1,0 +1,380 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000AqZq9AAF",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "TestException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 3
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestException",
+                "references": [],
+                "type": "TestException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "IRepository"
+    ],
+    "key": "01p3600000AqZq9AAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 5
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Read",
+            "parameters": [
+                {
+                    "name": "query",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 8
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Read",
+            "parameters": [
+                {
+                    "name": "query",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 11
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Create",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 14
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Create",
+            "parameters": [
+                {
+                    "name": "values",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 17
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Modify",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 20
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Modify",
+            "parameters": [
+                {
+                    "name": "values",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 23
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Save",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 26
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Save",
+            "parameters": [
+                {
+                    "name": "values",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 29
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Remove",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 32
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Remove",
+            "parameters": [
+                {
+                    "name": "values",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RepositoryTestStub",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 22,
+            "line": 1
+        },
+        "modifiers": [
+            "virtual",
+            "public"
+        ],
+        "name": "RepositoryTestStub",
+        "references": [],
+        "type": "RepositoryTestStub"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

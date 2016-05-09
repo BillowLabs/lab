@@ -1,0 +1,182 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000AqZWoAAN",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "Modify",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 24
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "Modify",
+                    "parameters": [
+                        {
+                            "name": "value",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "WhenRunning_ShouldNotFailOnLoadingJobsRepo",
+            "namespace": null,
+            "parentClass": "RepositoryTestStub",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 20
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "WhenRunning_ShouldNotFailOnLoadingJobsRepo",
+                "references": [],
+                "type": "WhenRunning_ShouldNotFailOnLoadingJobsRepo"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 21
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 24
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p3600000AqZWoAAN",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenRunning_ShouldNotFailOnLoadingJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Acc_ExampleJob_Tests",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "Acc_ExampleJob_Tests",
+        "references": [],
+        "type": "Acc_ExampleJob_Tests"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "repo",
+            "references": [],
+            "type": "WhenRunning_ShouldNotFailOnLoadingJobsRepo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "Acc_ExampleJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "testData",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

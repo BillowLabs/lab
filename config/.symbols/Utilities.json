@@ -1,0 +1,87 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000AqZh0AAF",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000AqZh0AAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "GetFakeId",
+            "parameters": [
+                {
+                    "name": "sot",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "Utilities",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 2
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fakeIdCount",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "Utilities",
+        "references": [],
+        "type": "Utilities"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "sot",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "count",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

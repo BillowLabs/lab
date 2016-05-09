@@ -1,0 +1,54 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000AqZWeAAN",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000AqZWeAAN",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 10
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenRunning_ShouldNotFailOnLoadingJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Jobs_Daily_Tests",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "Jobs_Daily_Tests",
+        "references": [],
+        "type": "Jobs_Daily_Tests"
+    },
+    "variables": []
+}

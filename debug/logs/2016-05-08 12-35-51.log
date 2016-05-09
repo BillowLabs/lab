@@ -1,0 +1,46 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+10:35:50.19 (19760541)|EXECUTION_STARTED
+10:35:50.19 (19782016)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000AqZWo|Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs
+10:35:50.19 (25428180)|SYSTEM_MODE_ENTER|false
+10:35:50.19 (25444255)|SYSTEM_MODE_EXIT|false
+10:35:50.19 (25501493)|SYSTEM_MODE_ENTER|false
+10:35:50.19 (25513814)|SYSTEM_MODE_EXIT|false
+10:35:50.19 (25518395)|SYSTEM_MODE_ENTER|false
+10:35:50.19 (25520364)|SYSTEM_MODE_EXIT|false
+10:35:50.19 (25667403)|SOQL_EXECUTE_BEGIN|[13]|Aggregations:0|SELECT Id FROM Account
+10:35:50.19 (28972967)|SOQL_EXECUTE_END|[13]|Rows:0
+10:35:50.19 (29563872)|SYSTEM_MODE_ENTER|false
+10:35:50.19 (29647204)|USER_DEBUG|[7]|DEBUG|HERE!!!
+10:35:50.19 (29716896)|USER_DEBUG|[8]|DEBUG|query: ()
+10:35:50.19 (29791875)|USER_DEBUG|[3]|DEBUG|query: ()
+10:35:50.19 (29896632)|EXCEPTION_THROWN|[4]|System.QueryException: unexpected token: (
+10:35:50.19 (29962840)|SYSTEM_MODE_EXIT|false
+10:35:50.19 (30013011)|FATAL_ERROR|System.QueryException: unexpected token: (
+
+Class.Repository.Read: line 4, column 1
+Class.Repository.Read2: line 9, column 1
+Class.Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs: line 13, column 1
+10:35:50.19 (30025366)|FATAL_ERROR|System.QueryException: unexpected token: (
+
+Class.Repository.Read: line 4, column 1
+Class.Repository.Read2: line 9, column 1
+Class.Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs: line 13, column 1
+10:35:50.30 (30035089)|CUMULATIVE_LIMIT_USAGE
+10:35:50.30 (30035089)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:35:50.30 (30035089)|CUMULATIVE_LIMIT_USAGE_END
+
+10:35:50.19 (30078407)|CODE_UNIT_FINISHED|Acc_ExampleJob_Tests.WhenRunning_ShouldNotFailOnLoadingJobs
+10:35:50.19 (31507580)|EXECUTION_FINISHED

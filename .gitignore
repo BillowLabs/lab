@@ -1,0 +1,6 @@
+*/node_modules
+*/bower_components
+*/tmp
+*/deploy
+*/dist
+*temp_deploy.sh
