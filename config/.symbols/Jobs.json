@@ -1,0 +1,105 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DGvlNAAT",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DGvlNAAT",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "frequency",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Jobs",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "Jobs",
+        "references": [],
+        "type": "Jobs"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "frequency",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "batchJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "LabTools__Job__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "targettype",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "Batchable"
+        }
+    ]
+}

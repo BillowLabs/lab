@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHIguAAH",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DHIguAAH",
+    "methods": [],
+    "name": "TestStubException",
+    "namespace": "LabTools",
+    "parentClass": "Exception",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TestStubException",
+        "references": [],
+        "type": "TestStubException"
+    },
+    "variables": []
+}

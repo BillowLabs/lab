@@ -1,6 +1,6 @@
 public interface IRepository {
 	List<SObject> Read(String query);
-	List<SObject> Read(SObject[] query);
+	List<SObject> Echo(SObject[] query);
 	void Create(SObject values);
 	void Create(List<SObject> values);
 	void Modify(SObject values);

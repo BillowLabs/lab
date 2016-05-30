@@ -1,27 +1,26 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000AqZWZAA3",
+    "id": "01p3600000DHD4kAAH",
     "innerClasses": [],
-    "interfaces": [
-        "System.Schedulable"
-    ],
-    "key": "01p3600000AqZWZAA3",
+    "interfaces": [],
+    "key": "01p3600000DHD4kAAH",
     "methods": [
         {
             "annotations": [],
             "location": {
-                "column": 14,
+                "column": 7,
                 "line": 2
             },
             "modifiers": [
-                "global"
+                "public",
+                "abstract"
             ],
-            "name": "execute",
+            "name": "Handle",
             "parameters": [
                 {
-                    "name": "sc",
-                    "type": "SchedulableContext"
+                    "name": "response",
+                    "type": "HttpResponse"
                 }
             ],
             "references": [],
@@ -29,34 +28,34 @@
             "type": null
         }
     ],
-    "name": "Jobs_Daily",
+    "name": "IHttpResponseHandler",
     "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 14,
+            "column": 18,
             "line": 1
         },
         "modifiers": [
-            "global"
+            "public"
         ],
-        "name": "Jobs_Daily",
+        "name": "IHttpResponseHandler",
         "references": [],
-        "type": "Jobs_Daily"
+        "type": "IHttpResponseHandler"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 41,
+                "column": 27,
                 "line": 2
             },
             "modifiers": [],
-            "name": "sc",
+            "name": "response",
             "references": [],
-            "type": "SchedulableContext"
+            "type": "HttpResponse"
         }
     ]
 }

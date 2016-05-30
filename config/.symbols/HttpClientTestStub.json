@@ -1,0 +1,96 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHIgpAAH",
+    "innerClasses": [],
+    "interfaces": [
+        "LabTools.IHttpClient"
+    ],
+    "key": "01p3600000DHIgpAAH",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 4
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Send",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 7
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "Future",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "FutureRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HttpClientTestStub",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 23,
+            "line": 3
+        },
+        "modifiers": [
+            "public",
+            "abstract"
+        ],
+        "name": "HttpClientTestStub",
+        "references": [],
+        "type": "HttpClientTestStub"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "FutureRequest"
+        }
+    ]
+}

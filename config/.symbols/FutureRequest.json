@@ -1,0 +1,143 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHD0SAAX",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DHD0SAAX",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SetHandler",
+            "parameters": [
+                {
+                    "name": "type",
+                    "type": "Type"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Get",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "FutureRequest",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "endpoint",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "method",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "handler",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "FutureRequest",
+        "references": [],
+        "type": "FutureRequest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "type",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

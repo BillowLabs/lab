@@ -4,7 +4,7 @@
     "id": "01p3600000AqZfYAAV",
     "innerClasses": [],
     "interfaces": [
-        "IRepository"
+        "LabTools.IRepository"
     ],
     "key": "01p3600000AqZfYAAV",
     "methods": [
@@ -37,7 +37,7 @@
             "modifiers": [
                 "public"
             ],
-            "name": "Read",
+            "name": "Echo",
             "parameters": [
                 {
                     "name": "query",
@@ -210,7 +210,7 @@
         }
     ],
     "name": "Repository",
-    "namespace": null,
+    "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {

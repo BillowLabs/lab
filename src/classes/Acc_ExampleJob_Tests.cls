@@ -8,7 +8,7 @@ private class Acc_ExampleJob_Tests {
 		Acc_ExampleJob job = new Acc_ExampleJob(repo);
 
 		List<Account> testData = new List<Account>{
-			new Account(Id=Utilities.GetFakeId(Account.SObjectType))
+			new Account(Id=Faker.GetId(Account.SObjectType))
 		};
 
 		Test.startTest();

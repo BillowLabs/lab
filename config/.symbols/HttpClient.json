@@ -1,0 +1,185 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHD0NAAX",
+    "innerClasses": [],
+    "interfaces": [
+        "LabTools.IHttpClient"
+    ],
+    "key": "01p3600000DHD0NAAX",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Send",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Future",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "FutureRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 12
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AsyncCall",
+            "parameters": [
+                {
+                    "name": "jRequest",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HttpClient",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "HttpClient",
+        "references": [],
+        "type": "HttpClient"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "FutureRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "jRequest",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "fRequest",
+            "references": [],
+            "type": "FutureRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "targettype",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "handler",
+            "references": [],
+            "type": "IHttpResponseHandler"
+        }
+    ]
+}

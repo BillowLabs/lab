@@ -37,7 +37,7 @@
                 "public",
                 "abstract"
             ],
-            "name": "Read",
+            "name": "Echo",
             "parameters": [
                 {
                     "name": "query",
@@ -218,7 +218,7 @@
         }
     ],
     "name": "IRepository",
-    "namespace": null,
+    "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {

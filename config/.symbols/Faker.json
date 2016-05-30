@@ -1,10 +1,10 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000AqZh0AAF",
+    "id": "01p3600000DHJkdAAH",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000AqZh0AAF",
+    "key": "01p3600000DHJkdAAH",
     "methods": [
         {
             "annotations": [],
@@ -16,7 +16,7 @@
                 "static",
                 "public"
             ],
-            "name": "GetFakeId",
+            "name": "GetId",
             "parameters": [
                 {
                     "name": "sot",
@@ -28,7 +28,7 @@
             "type": null
         }
     ],
-    "name": "Utilities",
+    "name": "Faker",
     "namespace": "LabTools",
     "parentClass": "",
     "properties": [
@@ -36,7 +36,7 @@
             "annotations": [],
             "location": {
                 "column": 17,
-                "line": 2
+                "line": 3
             },
             "modifiers": [
                 "private",
@@ -56,15 +56,15 @@
         "modifiers": [
             "global"
         ],
-        "name": "Utilities",
+        "name": "Faker",
         "references": [],
-        "type": "Utilities"
+        "type": "Faker"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 52,
+                "column": 48,
                 "line": 4
             },
             "modifiers": [],

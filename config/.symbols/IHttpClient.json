@@ -1,0 +1,93 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHCwAAAX",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DHCwAAAX",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 2
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "Send",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 3
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "Future",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "FutureRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "IHttpClient",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "IHttpClient",
+        "references": [],
+        "type": "IHttpClient"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "FutureRequest"
+        }
+    ]
+}

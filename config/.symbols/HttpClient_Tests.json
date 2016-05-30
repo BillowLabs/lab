@@ -1,0 +1,282 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHDD5AAP",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "LabTools.IHttpResponseHandler"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 46
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Handle",
+                    "parameters": [
+                        {
+                            "name": "response",
+                            "type": "HttpResponse"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestResponseHandler",
+            "namespace": "LabTools",
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 44
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestResponseHandler",
+                "references": [],
+                "type": "TestResponseHandler"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 46
+                    },
+                    "modifiers": [],
+                    "name": "response",
+                    "references": [],
+                    "type": "HttpResponse"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "System.HttpCalloutMock"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 55
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "respond",
+                    "parameters": [
+                        {
+                            "name": "req",
+                            "type": "HttpRequest"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "HttpResponse",
+                    "type": null
+                }
+            ],
+            "name": "GoogleHttpCalloutMock",
+            "namespace": "LabTools",
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 54
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "GoogleHttpCalloutMock",
+                "references": [],
+                "type": "GoogleHttpCalloutMock"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 55
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 61
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p3600000DHDD5AAP",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 6
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenMakingRequest_ShouldReturnResponse",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 26
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenMakingFutureRequest_ShouldHandleResponse",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HttpClient_Tests",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "TestResponseHandlerCalled",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "HttpClient_Tests",
+        "references": [],
+        "type": "HttpClient_Tests"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "client",
+            "references": [],
+            "type": "HttpClient"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "client",
+            "references": [],
+            "type": "HttpClient"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "FutureRequest"
+        }
+    ]
+}

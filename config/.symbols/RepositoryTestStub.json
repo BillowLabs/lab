@@ -2,37 +2,9 @@
     "constructors": [],
     "externalReferences": [],
     "id": "01p3600000AqZq9AAF",
-    "innerClasses": [
-        {
-            "constructors": [],
-            "externalReferences": [],
-            "id": null,
-            "innerClasses": [],
-            "interfaces": [],
-            "key": null,
-            "methods": [],
-            "name": "TestException",
-            "namespace": null,
-            "parentClass": "Exception",
-            "properties": [],
-            "tableDeclaration": {
-                "annotations": [],
-                "location": {
-                    "column": 15,
-                    "line": 3
-                },
-                "modifiers": [
-                    "public"
-                ],
-                "name": "TestException",
-                "references": [],
-                "type": "TestException"
-            },
-            "variables": []
-        }
-    ],
+    "innerClasses": [],
     "interfaces": [
-        "IRepository"
+        "LabTools.IRepository"
     ],
     "key": "01p3600000AqZq9AAF",
     "methods": [
@@ -67,7 +39,7 @@
                 "virtual",
                 "public"
             ],
-            "name": "Read",
+            "name": "Echo",
             "parameters": [
                 {
                     "name": "query",
@@ -248,18 +220,18 @@
         }
     ],
     "name": "RepositoryTestStub",
-    "namespace": null,
+    "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 22,
-            "line": 1
+            "column": 23,
+            "line": 3
         },
         "modifiers": [
-            "virtual",
-            "public"
+            "public",
+            "abstract"
         ],
         "name": "RepositoryTestStub",
         "references": [],

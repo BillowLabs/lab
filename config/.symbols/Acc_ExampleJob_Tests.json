@@ -55,8 +55,8 @@
                 }
             ],
             "name": "WhenRunning_ShouldNotFailOnLoadingJobsRepo",
-            "namespace": null,
-            "parentClass": "RepositoryTestStub",
+            "namespace": "LabTools",
+            "parentClass": "LabTools.RepositoryTestStub",
             "properties": [],
             "tableDeclaration": {
                 "annotations": [],
@@ -123,7 +123,7 @@
         }
     ],
     "name": "Acc_ExampleJob_Tests",
-    "namespace": null,
+    "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {

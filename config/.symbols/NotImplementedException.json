@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000DHIgzAAH",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DHIgzAAH",
+    "methods": [],
+    "name": "NotImplementedException",
+    "namespace": "LabTools",
+    "parentClass": "Exception",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "NotImplementedException",
+        "references": [],
+        "type": "NotImplementedException"
+    },
+    "variables": []
+}

@@ -2,7 +2,7 @@ public with sharing class Repository implements IRepository {
 	public List<SObject> Read(String query){
 		return Database.query(query);
 	}
-	public List<SObject> Read(SObject[] query) {
+	public List<SObject> Echo(SObject[] query) {
 		return query;
 	}
 	public void Create(SObject value){

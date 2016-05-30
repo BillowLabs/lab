@@ -1,0 +1,43 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Worker",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p3600000DHJHdAAP",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000DHJHdAAP",
+    "methods": [],
+    "name": "Worker",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Worker",
+        "references": [],
+        "type": "Worker"
+    },
+    "variables": []
+}
