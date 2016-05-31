@@ -1,5 +1,5 @@
 @isTest
-private class Jobs_Daily_Tests {
+private class JobRunner_Tests {
 
 	// Because Jobs_Daily loads the jobs it runs dynamically,
 	// the purpose of this class is to test that all those jobs exist.
@@ -12,7 +12,7 @@ private class Jobs_Daily_Tests {
 		Test.startTest();
 		// CRON expression: midnight on March 15.
 		// Because this is a test, job executes immediately after Test.stopTest().
-		System.schedule('ScheduleApexClassTest', '0 0 0 15 3 ? 2022', new Jobs_Daily());
+		System.schedule('JobRunner', '0 0 0 15 3 ? 2022', new JobRunner());
 		Test.stopTest();
 
 		// Pointless assert just to assert something.

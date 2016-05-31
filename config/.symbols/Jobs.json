@@ -56,50 +56,6 @@
             "name": "frequency",
             "references": [],
             "type": "String"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 26,
-                "line": 5
-            },
-            "modifiers": [],
-            "name": "batchJobs",
-            "references": [],
-            "type": "LIST"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 24,
-                "line": 12
-            },
-            "modifiers": [],
-            "name": "job",
-            "references": [],
-            "type": "LabTools__Job__c"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 10,
-                "line": 15
-            },
-            "modifiers": [],
-            "name": "targettype",
-            "references": [],
-            "type": "Type"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 33,
-                "line": 17
-            },
-            "modifiers": [],
-            "name": "obj",
-            "references": [],
-            "type": "Batchable"
         }
     ]
 }

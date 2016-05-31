@@ -1,0 +1,213 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "JobRunner",
+            "parameters": [],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 73
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "JobRunner",
+            "parameters": [
+                {
+                    "name": "r",
+                    "type": "IRepository"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p3600000DHKdZAAX",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Schedulable"
+    ],
+    "key": "01p3600000DHKdZAAX",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 5
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "sc",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "JobRunner",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 79
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "repository",
+            "references": [],
+            "type": "IRepository"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "JobRunner",
+        "references": [],
+        "type": "JobRunner"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SchedulableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "runners",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "jobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "runner",
+            "references": [],
+            "type": "LabTools__Runner__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "next",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "LabTools__Job__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "targettype",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "Batchable"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "IRepository"
+        }
+    ]
+}
