@@ -1,4 +1,4 @@
-public interface IRepository {
+global interface IRepository {
 	List<SObject> Read(String query);
 	List<SObject> Echo(SObject[] query);
 	void Create(SObject values);

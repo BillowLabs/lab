@@ -1,3 +1,3 @@
-public interface IHttpResponseHandler {
+global interface IHttpResponseHandler {
 	void Handle(HttpResponse response);
 }

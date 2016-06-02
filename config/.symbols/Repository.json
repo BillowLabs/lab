@@ -216,12 +216,11 @@
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 27,
+            "column": 14,
             "line": 1
         },
         "modifiers": [
-            "public",
-            "with sharing"
+            "global"
         ],
         "name": "Repository",
         "references": [],

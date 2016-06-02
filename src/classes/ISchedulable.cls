@@ -1,3 +1,3 @@
-public interface ISchedulable {
+global interface ISchedulable {
 	void execute();
 }

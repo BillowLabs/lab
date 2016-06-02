@@ -1,4 +1,4 @@
-public with sharing class JobRunner implements ISchedulable {
+global class JobRunner implements ISchedulable {
 
 	public void execute() {
 

@@ -1,4 +1,4 @@
-public with sharing class FutureRequest {
+global class FutureRequest {
 	public String endpoint;
 	public String method;
 	public String handler;

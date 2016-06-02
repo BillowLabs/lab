@@ -13,7 +13,7 @@
                 "line": 2
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "execute",
@@ -34,7 +34,7 @@
             "line": 1
         },
         "modifiers": [
-            "public"
+            "global"
         ],
         "name": "ISchedulable",
         "references": [],

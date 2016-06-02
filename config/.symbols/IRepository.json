@@ -13,7 +13,7 @@
                 "line": 2
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Read",
@@ -34,7 +34,7 @@
                 "line": 3
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Echo",
@@ -55,7 +55,7 @@
                 "line": 4
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Create",
@@ -76,7 +76,7 @@
                 "line": 5
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Create",
@@ -97,7 +97,7 @@
                 "line": 6
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Modify",
@@ -118,7 +118,7 @@
                 "line": 7
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Modify",
@@ -139,7 +139,7 @@
                 "line": 8
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Save",
@@ -160,7 +160,7 @@
                 "line": 9
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Save",
@@ -181,7 +181,7 @@
                 "line": 10
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Remove",
@@ -202,7 +202,7 @@
                 "line": 11
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Remove",
@@ -228,7 +228,7 @@
             "line": 1
         },
         "modifiers": [
-            "public"
+            "global"
         ],
         "name": "IRepository",
         "references": [],

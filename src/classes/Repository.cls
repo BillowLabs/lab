@@ -1,4 +1,4 @@
-public with sharing class Repository implements IRepository {
+global class Repository implements IRepository {
 	public List<SObject> Read(String query){
 		return Database.query(query);
 	}

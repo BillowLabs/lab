@@ -1,1 +1,1 @@
-public class ApplicationException extends Exception {}
+global class ApplicationException extends Exception {}

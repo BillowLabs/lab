@@ -1,4 +1,4 @@
-public with sharing class HttpClient implements IHttpClient {
+global class HttpClient implements IHttpClient {
 
 	public HttpResponse Send(HttpRequest request) {
 		return (new Http()).send(request);

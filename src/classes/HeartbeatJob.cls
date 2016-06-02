@@ -1,4 +1,4 @@
-public with sharing class HeartbeatJob implements IJob {
+global class HeartbeatJob implements IJob {
 
 	public Database.QueryLocator Query() {
 		System.debug('Heartbeat Job Started');

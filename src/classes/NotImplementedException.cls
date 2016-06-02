@@ -1,1 +1,1 @@
-public class NotImplementedException extends Exception {}
+global class NotImplementedException extends Exception {}
