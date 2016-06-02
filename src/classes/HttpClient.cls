@@ -1,10 +1,10 @@
 global class HttpClient implements IHttpClient {
 
-	public HttpResponse Send(HttpRequest request) {
+	global HttpResponse Send(HttpRequest request) {
 		return (new Http()).send(request);
 	}
 
-	public void Future(FutureRequest request) {
+	global void Future(FutureRequest request) {
 		AsyncCall(JSON.serialize(request));
 	}
 

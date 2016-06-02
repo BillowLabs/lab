@@ -27,7 +27,7 @@ private class HttpClient_Tests
 	{
 		HttpClient client = new HttpClient();
 		FutureRequest request = new FutureRequest();
-		request.Get('http://www.google.com');
+		request.SetEndpoint('http://www.google.com');
 		request.SetHandler(TestResponseHandler.class);
 
 		Test.setMock(HttpCalloutMock.class, new GoogleHttpCalloutMock());

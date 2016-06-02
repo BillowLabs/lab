@@ -13,7 +13,7 @@
                 "line": 6
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "SetHandler",
             "parameters": [
@@ -33,12 +33,36 @@
                 "line": 15
             },
             "modifiers": [
-                "public"
+                "global"
             ],
-            "name": "Get",
+            "name": "SetEndpoint",
             "parameters": [
                 {
                     "name": "url",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 20
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "SetEndpoint",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                },
+                {
+                    "name": "m",
                     "type": "String"
                 }
             ],
@@ -130,11 +154,33 @@
         {
             "annotations": [],
             "location": {
-                "column": 25,
+                "column": 33,
                 "line": 15
             },
             "modifiers": [],
             "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "m",
             "references": [],
             "type": "String"
         }

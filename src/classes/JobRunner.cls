@@ -1,6 +1,6 @@
 global class JobRunner implements ISchedulable {
 
-	public void execute() {
+	global void execute() {
 
 		if (now == null) now = DateTime.now();
 		List<LabTools__Runner__c> runners = repository.Echo([
@@ -40,7 +40,7 @@ global class JobRunner implements ISchedulable {
 
 
 
-	public JobRunner() {
+	global JobRunner() {
 		repository = new Repository();
 	}
 

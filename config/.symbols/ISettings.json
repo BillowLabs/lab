@@ -1,87 +1,93 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000DHJkdAAH",
+    "id": "01p3600000DKK76AAH",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000DHJkdAAH",
+    "key": "01p3600000DKK76AAH",
     "methods": [
         {
             "annotations": [],
             "location": {
-                "column": 23,
-                "line": 4
+                "column": 9,
+                "line": 2
             },
             "modifiers": [
-                "static",
-                "global"
+                "public",
+                "abstract"
             ],
-            "name": "GetId",
+            "name": "Read",
             "parameters": [
                 {
-                    "name": "sot",
-                    "type": "SObjectType"
+                    "name": "key",
+                    "type": "String"
                 }
             ],
             "references": [],
             "returnType": "String",
             "type": null
-        }
-    ],
-    "name": "Faker",
-    "namespace": "LabTools",
-    "parentClass": "",
-    "properties": [
+        },
         {
             "annotations": [],
             "location": {
-                "column": 17,
+                "column": 22,
                 "line": 3
             },
             "modifiers": [
-                "private",
-                "static"
+                "public",
+                "abstract"
             ],
-            "name": "fakeIdCount",
+            "name": "ReadAll",
+            "parameters": [
+                {
+                    "name": "keys",
+                    "type": "LIST"
+                }
+            ],
             "references": [],
-            "type": "Integer"
+            "returnType": "Map",
+            "type": null
         }
     ],
+    "name": "ISettings",
+    "namespace": "LabTools",
+    "parentClass": "",
+    "properties": [],
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 14,
+            "column": 18,
             "line": 1
         },
         "modifiers": [
-            "global"
+            "public"
         ],
-        "name": "Faker",
+        "name": "ISettings",
         "references": [],
-        "type": "Faker"
+        "type": "ISettings"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 48,
-                "line": 4
+                "column": 21,
+                "line": 2
             },
             "modifiers": [],
-            "name": "sot",
+            "name": "key",
             "references": [],
-            "type": "SObjectType"
+            "type": "String"
         },
         {
             "annotations": [],
             "location": {
-                "column": 11,
-                "line": 6
+                "column": 43,
+                "line": 3
             },
             "modifiers": [],
-            "name": "count",
+            "name": "keys",
             "references": [],
-            "type": "String"
+            "type": "LIST"
         }
     ]
 }

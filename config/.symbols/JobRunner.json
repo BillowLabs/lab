@@ -7,7 +7,7 @@
                 "line": 43
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "JobRunner",
             "parameters": [],
@@ -57,7 +57,7 @@
                 "line": 3
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "execute",
             "parameters": [],

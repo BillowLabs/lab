@@ -15,7 +15,7 @@
                 "line": 2
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Read",
             "parameters": [
@@ -35,7 +35,7 @@
                 "line": 5
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Echo",
             "parameters": [
@@ -55,7 +55,7 @@
                 "line": 8
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Create",
             "parameters": [
@@ -75,7 +75,7 @@
                 "line": 11
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Create",
             "parameters": [
@@ -95,7 +95,7 @@
                 "line": 14
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Modify",
             "parameters": [
@@ -115,7 +115,7 @@
                 "line": 17
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Modify",
             "parameters": [
@@ -135,7 +135,7 @@
                 "line": 20
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Save",
             "parameters": [
@@ -155,7 +155,7 @@
                 "line": 23
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Save",
             "parameters": [
@@ -175,7 +175,7 @@
                 "line": 26
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Remove",
             "parameters": [
@@ -195,7 +195,7 @@
                 "line": 29
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Remove",
             "parameters": [

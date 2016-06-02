@@ -16,5 +16,5 @@ global class JobRunnerSchedule implements Schedulable {
 		schedulable = s;
 	}
 
-	public ISchedulable schedulable;
+	private ISchedulable schedulable;
 }

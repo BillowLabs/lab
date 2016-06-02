@@ -7,11 +7,24 @@ private class FutureRequest_Tests
 		FutureRequest request = new FutureRequest();
 
 		Test.startTest();
-		request.Get('http://www.google.com');
+		request.SetEndpoint('http://www.google.com');
 		Test.stopTest();
 
 		System.assertEquals('http://www.google.com', request.endpoint);
 		System.assertEquals('GET', request.method);
+	}
+
+	@isTest
+	static void WhenUsingSetEndpointAndMethod_ShouldSetMethodAndEndpoint()
+	{
+		FutureRequest request = new FutureRequest();
+
+		Test.startTest();
+		request.SetEndpoint('http://www.google.com', 'POST');
+		Test.stopTest();
+
+		System.assertEquals('http://www.google.com', request.endpoint);
+		System.assertEquals('POST', request.method);
 	}
 
 

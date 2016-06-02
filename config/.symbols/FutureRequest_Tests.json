@@ -17,7 +17,7 @@
                     "annotations": [],
                     "location": {
                         "column": 15,
-                        "line": 51
+                        "line": 64
                     },
                     "modifiers": [
                         "public"
@@ -42,7 +42,7 @@
                 "annotations": [],
                 "location": {
                     "column": 15,
-                    "line": 49
+                    "line": 62
                 },
                 "modifiers": [
                     "public"
@@ -56,7 +56,7 @@
                     "annotations": [],
                     "location": {
                         "column": 35,
-                        "line": 51
+                        "line": 64
                     },
                     "modifiers": [],
                     "name": "response",
@@ -98,7 +98,28 @@
             ],
             "location": {
                 "column": 14,
-                "line": 19
+                "line": 18
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenUsingSetEndpointAndMethod_ShouldSetMethodAndEndpoint",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 32
             },
             "modifiers": [
                 "private",
@@ -119,7 +140,7 @@
             ],
             "location": {
                 "column": 14,
-                "line": 32
+                "line": 45
             },
             "modifiers": [
                 "private",
@@ -171,7 +192,7 @@
             "annotations": [],
             "location": {
                 "column": 17,
-                "line": 21
+                "line": 20
             },
             "modifiers": [],
             "name": "request",
@@ -192,8 +213,19 @@
         {
             "annotations": [],
             "location": {
+                "column": 17,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "FutureRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
                 "column": 11,
-                "line": 35
+                "line": 48
             },
             "modifiers": [],
             "name": "exceptionThrown",

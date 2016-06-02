@@ -17,7 +17,7 @@
                     "annotations": [],
                     "location": {
                         "column": 15,
-                        "line": 35
+                        "line": 33
                     },
                     "modifiers": [
                         "public"
@@ -37,7 +37,7 @@
                     "annotations": [],
                     "location": {
                         "column": 11,
-                        "line": 33
+                        "line": 31
                     },
                     "modifiers": [
                         "private"
@@ -51,7 +51,7 @@
                 "annotations": [],
                 "location": {
                     "column": 16,
-                    "line": 32
+                    "line": 30
                 },
                 "modifiers": [
                     "private"
@@ -95,7 +95,7 @@
             ],
             "location": {
                 "column": 22,
-                "line": 19
+                "line": 17
             },
             "modifiers": [
                 "private",
@@ -147,7 +147,7 @@
             "annotations": [],
             "location": {
                 "column": 19,
-                "line": 21
+                "line": 19
             },
             "modifiers": [],
             "name": "schedulable",
@@ -158,7 +158,7 @@
             "annotations": [],
             "location": {
                 "column": 21,
-                "line": 22
+                "line": 20
             },
             "modifiers": [],
             "name": "schedule",

@@ -15,7 +15,7 @@
                 "line": 3
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Query",
             "parameters": [],
@@ -30,7 +30,7 @@
                 "line": 8
             },
             "modifiers": [
-                "public"
+                "global"
             ],
             "name": "Process",
             "parameters": [

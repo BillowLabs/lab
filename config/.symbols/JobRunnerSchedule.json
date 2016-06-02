@@ -74,11 +74,11 @@
         {
             "annotations": [],
             "location": {
-                "column": 22,
+                "column": 23,
                 "line": 19
             },
             "modifiers": [
-                "public"
+                "private"
             ],
             "name": "schedulable",
             "references": [],

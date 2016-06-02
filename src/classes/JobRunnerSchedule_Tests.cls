@@ -11,8 +11,6 @@ private class JobRunnerSchedule_Tests
 		Test.startTest();
 		JobRunnerSchedule schedule = new JobRunnerSchedule();
 		Test.stopTest();
-
-		System.assert(schedule.schedulable != null);
 	}
 
 
