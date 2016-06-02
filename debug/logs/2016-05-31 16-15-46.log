@@ -1,0 +1,227 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+14:15:45.26 (26258565)|EXECUTION_STARTED
+14:15:45.26 (26305506)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHL7Q|JobRunner_Tests.WhenIntegrating_ShouldNotFailRun
+14:15:45.26 (27514215)|DML_BEGIN|[24]|Op:Insert|Type:LabTools__Runner__c|Rows:1
+14:15:45.26 (73195898)|DML_END|[24]
+14:15:45.26 (73545174)|ENTERING_MANAGED_PKG|
+14:15:45.26 (75321210)|ENTERING_MANAGED_PKG|
+14:15:45.26 (75471106)|DML_BEGIN|[31]|Op:Insert|Type:LabTools__Job__c|Rows:1
+14:15:45.26 (101634486)|DML_END|[31]
+14:15:45.26 (104456420)|SYSTEM_MODE_ENTER|false
+14:15:45.26 (104472258)|SYSTEM_MODE_EXIT|false
+14:15:45.26 (105222798)|SYSTEM_MODE_ENTER|false
+14:15:45.26 (106370123)|SYSTEM_MODE_EXIT|false
+14:15:45.26 (110369625)|SYSTEM_MODE_ENTER|false
+14:15:45.26 (111191668)|SOQL_EXECUTE_BEGIN|[6]|Aggregations:1|SELECT Name, LabTools__RecurrenceType__c, LabTools__RecurrenceRate__c, (SELECT Name, LabTools__Enabled__c FROM LabTools__Jobs__r) FROM LabTools__Runner__c WHERE (LabTools__StartOn__c <= :tmpVar1 AND (LabTools__NextRunOn__c = NULL OR LabTools__NextRunOn__c <= :tmpVar2)) ORDER BY LabTools__NextRunOn__c DESC NULLS FIRST LIMIT 5
+14:15:45.26 (118893034)|SOQL_EXECUTE_END|[6]|Rows:1
+14:15:45.26 (119245469)|ENTERING_MANAGED_PKG|
+14:15:45.26 (122137647)|ENTERING_MANAGED_PKG|
+14:15:45.26 (156312101)|DML_BEGIN|[18]|Op:Update|Type:LabTools__Runner__c|Rows:1
+14:15:45.26 (179877153)|DML_END|[18]
+14:15:45.26 (179973159)|SYSTEM_MODE_EXIT|false
+14:15:45.26 (194926850)|SYSTEM_MODE_ENTER|false
+14:15:45.26 (194973295)|ENTERING_MANAGED_PKG|
+14:15:45.26 (195028767)|USER_DEBUG|[4]|DEBUG|Heartbeat Job Started
+14:15:45.26 (195075215)|ENTERING_MANAGED_PKG|
+14:15:45.26 (195261470)|SOQL_EXECUTE_BEGIN|[5]|Aggregations:0|SELECT Id FROM LabTools__Job__c
+14:15:45.26 (228071973)|SOQL_EXECUTE_END|[5]|Rows:1
+14:15:45.26 (228161765)|SYSTEM_MODE_EXIT|false
+14:15:45.245 (245529975)|CUMULATIVE_LIMIT_USAGE
+14:15:45.245 (245529975)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.245 (245529975)|CUMULATIVE_LIMIT_USAGE_END
+
+14:15:45.26 (245592096)|CODE_UNIT_FINISHED|LabTools.JobWrapper
+14:15:45.26 (248368491)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIJMr|LabTools.JobWrapper
+14:15:45.26 (265692065)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIJMr|LabTools.JobWrapper
+14:15:45.26 (267320589)|SYSTEM_MODE_ENTER|false
+14:15:45.26 (267367130)|ENTERING_MANAGED_PKG|
+14:15:45.26 (267409451)|USER_DEBUG|[9]|DEBUG|Heartbeat Job Executing
+14:15:45.26 (267449762)|ENTERING_MANAGED_PKG|
+14:15:45.26 (267520178)|ENTERING_MANAGED_PKG|
+14:15:45.26 (267571294)|ENTERING_MANAGED_PKG|
+14:15:45.26 (267578309)|USER_DEBUG|[10]|DEBUG|Heartbeat Job - Number of Jobs: 1
+14:15:45.26 (267592607)|SYSTEM_MODE_EXIT|false
+14:15:45.26 (267622593)|CODE_UNIT_FINISHED|LabTools.JobWrapper
+14:15:45.313 (313035467)|CUMULATIVE_LIMIT_USAGE
+14:15:45.313 (313035467)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.313 (313035467)|CUMULATIVE_LIMIT_USAGE_END
+
+14:15:45.26 (313105249)|CODE_UNIT_FINISHED|LabTools.JobWrapper
+14:15:45.26 (315566982)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIJMr|LabTools.JobWrapper
+14:15:45.340 (340378286)|CUMULATIVE_LIMIT_USAGE
+14:15:45.340 (340378286)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.340 (340378286)|CUMULATIVE_LIMIT_USAGE_END
+
+14:15:45.26 (340442939)|CODE_UNIT_FINISHED|LabTools.JobWrapper
+14:15:45.343 (343511932)|CUMULATIVE_LIMIT_USAGE
+14:15:45.343 (343511932)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.343 (343511932)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.343 (343511932)|TESTING_LIMITS
+14:15:45.343 (343511932)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.343 (343511932)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.343 (343511932)|CUMULATIVE_LIMIT_USAGE_END
+
+14:15:45.26 (343567176)|CODE_UNIT_FINISHED|JobRunner_Tests.WhenIntegrating_ShouldNotFailRun
+14:15:45.26 (344958919)|EXECUTION_FINISHED
+14:15:45.397 (397227017)|EXECUTION_STARTED
+14:15:45.397 (397248018)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHL7Q|JobRunner_Tests.WhenUsingDays_ShouldSetNextRunInDays
+14:15:45.397 (400193983)|SYSTEM_MODE_ENTER|false
+14:15:45.397 (400205184)|SYSTEM_MODE_EXIT|false
+14:15:45.397 (400267797)|SYSTEM_MODE_ENTER|false
+14:15:45.397 (400286230)|SYSTEM_MODE_EXIT|false
+14:15:45.397 (403677337)|SYSTEM_MODE_ENTER|false
+14:15:45.397 (404464787)|SOQL_EXECUTE_BEGIN|[6]|Aggregations:1|SELECT Name, LabTools__RecurrenceType__c, LabTools__RecurrenceRate__c, (SELECT Name, LabTools__Enabled__c FROM LabTools__Jobs__r) FROM LabTools__Runner__c WHERE (LabTools__StartOn__c <= :tmpVar1 AND (LabTools__NextRunOn__c = NULL OR LabTools__NextRunOn__c <= :tmpVar2)) ORDER BY LabTools__NextRunOn__c DESC NULLS FIRST LIMIT 5
+14:15:45.397 (409005124)|SOQL_EXECUTE_END|[6]|Rows:0
+14:15:45.397 (409146335)|ENTERING_MANAGED_PKG|
+14:15:45.397 (410768016)|EXCEPTION_THROWN|[21]|LabTools.NotImplementedException: You must override the Modify(List<SObject> values) method when using the RepositoryTestStub
+14:15:45.397 (410784922)|SYSTEM_MODE_EXIT|false
+14:15:45.397 (410805279)|EXCEPTION_THROWN|[38]|LabTools.NotImplementedException: You must override the Modify(List<SObject> values) method when using the RepositoryTestStub
+14:15:45.397 (410920887)|FATAL_ERROR|LabTools.NotImplementedException: You must override the Modify(List<SObject> values) method when using the RepositoryTestStub
+
+Class.LabTools.RepositoryTestStub: line 21, column 1
+Class.LabTools.JobRunner.execute: line 38, column 1
+Class.LabTools.JobRunner_Tests.WhenUsingDays_ShouldSetNextRunInDays: line 9, column 1
+14:15:45.397 (410940930)|FATAL_ERROR|LabTools.NotImplementedException: You must override the Modify(List<SObject> values) method when using the RepositoryTestStub
+
+Class.LabTools.RepositoryTestStub: line 21, column 1
+Class.LabTools.JobRunner.execute: line 38, column 1
+Class.LabTools.JobRunner_Tests.WhenUsingDays_ShouldSetNextRunInDays: line 9, column 1
+14:15:45.410 (410962952)|CUMULATIVE_LIMIT_USAGE
+14:15:45.410 (410962952)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.410 (410962952)|TESTING_LIMITS
+14:15:45.410 (410962952)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.410 (410962952)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:15:45.410 (410962952)|CUMULATIVE_LIMIT_USAGE_END
+
+14:15:45.397 (411054002)|CODE_UNIT_FINISHED|JobRunner_Tests.WhenUsingDays_ShouldSetNextRunInDays
+14:15:45.397 (413113863)|EXECUTION_FINISHED

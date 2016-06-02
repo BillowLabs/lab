@@ -1,21 +1,20 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000DHL7uAAH",
+    "id": "01p3600000DIJMwAAP",
     "innerClasses": [],
-    "interfaces": [
-        "LabTools.IJob"
-    ],
-    "key": "01p3600000DHL7uAAH",
+    "interfaces": [],
+    "key": "01p3600000DIJMwAAP",
     "methods": [
         {
             "annotations": [],
             "location": {
-                "column": 31,
-                "line": 3
+                "column": 24,
+                "line": 2
             },
             "modifiers": [
-                "public"
+                "global",
+                "abstract"
             ],
             "name": "Query",
             "parameters": [],
@@ -26,16 +25,17 @@
         {
             "annotations": [],
             "location": {
-                "column": 14,
-                "line": 8
+                "column": 7,
+                "line": 3
             },
             "modifiers": [
-                "public"
+                "global",
+                "abstract"
             ],
             "name": "Process",
             "parameters": [
                 {
-                    "name": "scope",
+                    "name": "selected",
                     "type": "LIST"
                 }
             ],
@@ -44,33 +44,32 @@
             "type": null
         }
     ],
-    "name": "HeartbeatJob",
+    "name": "IJob",
     "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 27,
+            "column": 18,
             "line": 1
         },
         "modifiers": [
-            "public",
-            "with sharing"
+            "global"
         ],
-        "name": "HeartbeatJob",
+        "name": "IJob",
         "references": [],
-        "type": "HeartbeatJob"
+        "type": "IJob"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 36,
-                "line": 8
+                "column": 29,
+                "line": 3
             },
             "modifiers": [],
-            "name": "scope",
+            "name": "selected",
             "references": [],
             "type": "LIST"
         }

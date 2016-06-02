@@ -1,0 +1,970 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+14:17:27.24 (24081180)|EXECUTION_STARTED
+14:17:27.24 (24117543)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenCreatingAccount_ShouldSaveAccount
+14:17:27.24 (28992772)|SYSTEM_MODE_ENTER|false
+14:17:27.24 (29007852)|SYSTEM_MODE_EXIT|false
+14:17:27.24 (29071946)|SYSTEM_MODE_ENTER|false
+14:17:27.24 (29094390)|SYSTEM_MODE_EXIT|false
+14:17:27.24 (29099624)|SYSTEM_MODE_ENTER|false
+14:17:27.24 (29101898)|SYSTEM_MODE_EXIT|false
+14:17:27.24 (29167204)|SYSTEM_MODE_ENTER|false
+14:17:27.24 (29270570)|DML_BEGIN|[9]|Op:Insert|Type:Account|Rows:1
+14:17:27.24 (41764305)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.24 (41777852)|DUPLICATE_DETECTION_BEGIN
+14:17:27.24 (42489793)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.24 (122389955)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.24 (122404694)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.24 (122497490)|DUPLICATE_DETECTION_END
+14:17:27.24 (122531634)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.24 (190897626)|DML_END|[9]
+14:17:27.24 (190929597)|SYSTEM_MODE_EXIT|false
+14:17:27.24 (194070844)|SOQL_EXECUTE_BEGIN|[49]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.24 (198927213)|SOQL_EXECUTE_END|[49]|Rows:1
+14:17:27.24 (199115401)|ENTERING_MANAGED_PKG|
+14:17:27.24 (199168583)|ENTERING_MANAGED_PKG|
+14:17:27.24 (199232560)|ENTERING_MANAGED_PKG|
+14:17:27.199 (199279773)|CUMULATIVE_LIMIT_USAGE
+14:17:27.199 (199279773)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.199 (199279773)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.199 (199279773)|TESTING_LIMITS
+14:17:27.199 (199279773)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.199 (199279773)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.199 (199279773)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.24 (199358131)|CODE_UNIT_FINISHED|Repository_Tests.WhenCreatingAccount_ShouldSaveAccount
+14:17:27.24 (200661898)|EXECUTION_FINISHED
+14:17:27.227 (227931684)|EXECUTION_STARTED
+14:17:27.227 (227945778)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenCreatingList_ShouldSaveResults
+14:17:27.227 (228450594)|ENTERING_MANAGED_PKG|
+14:17:27.227 (230903257)|SYSTEM_MODE_ENTER|false
+14:17:27.227 (230913617)|SYSTEM_MODE_EXIT|false
+14:17:27.227 (230961160)|SYSTEM_MODE_ENTER|false
+14:17:27.227 (230983122)|SYSTEM_MODE_EXIT|false
+14:17:27.227 (230988277)|SYSTEM_MODE_ENTER|false
+14:17:27.227 (230990580)|SYSTEM_MODE_EXIT|false
+14:17:27.227 (231043701)|SYSTEM_MODE_ENTER|false
+14:17:27.227 (231108323)|DML_BEGIN|[12]|Op:Insert|Type:Account|Rows:2
+14:17:27.227 (234671006)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.227 (234682528)|DUPLICATE_DETECTION_BEGIN
+14:17:27.227 (234745429)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.227 (256518124)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.227 (256527442)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.227 (256536962)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:2|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.227 (256628411)|DUPLICATE_DETECTION_END
+14:17:27.227 (256664133)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.227 (282943427)|DML_END|[12]
+14:17:27.227 (283115094)|SYSTEM_MODE_EXIT|false
+14:17:27.227 (286907803)|SOQL_EXECUTE_BEGIN|[73]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.227 (290769758)|SOQL_EXECUTE_END|[73]|Rows:2
+14:17:27.227 (290823808)|ENTERING_MANAGED_PKG|
+14:17:27.227 (290862680)|ENTERING_MANAGED_PKG|
+14:17:27.227 (290912596)|ENTERING_MANAGED_PKG|
+14:17:27.227 (290970811)|ENTERING_MANAGED_PKG|
+14:17:27.291 (291029851)|CUMULATIVE_LIMIT_USAGE
+14:17:27.291 (291029851)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.291 (291029851)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.291 (291029851)|TESTING_LIMITS
+14:17:27.291 (291029851)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.291 (291029851)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.291 (291029851)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.227 (291107999)|CODE_UNIT_FINISHED|Repository_Tests.WhenCreatingList_ShouldSaveResults
+14:17:27.227 (292329864)|EXECUTION_FINISHED
+14:17:27.318 (318398113)|EXECUTION_STARTED
+14:17:27.318 (318415255)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenEchoing_ShouldReturnGivenList
+14:17:27.318 (318832308)|ENTERING_MANAGED_PKG|
+14:17:27.318 (321984706)|SYSTEM_MODE_ENTER|false
+14:17:27.318 (321996144)|SYSTEM_MODE_EXIT|false
+14:17:27.318 (322045196)|SYSTEM_MODE_ENTER|false
+14:17:27.318 (322068545)|SYSTEM_MODE_EXIT|false
+14:17:27.318 (322073932)|SYSTEM_MODE_ENTER|false
+14:17:27.318 (322076348)|SYSTEM_MODE_EXIT|false
+14:17:27.318 (322149608)|SYSTEM_MODE_ENTER|false
+14:17:27.318 (322159227)|SYSTEM_MODE_EXIT|false
+14:17:27.318 (325922145)|ENTERING_MANAGED_PKG|
+14:17:27.326 (326014267)|CUMULATIVE_LIMIT_USAGE
+14:17:27.326 (326014267)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.326 (326014267)|TESTING_LIMITS
+14:17:27.326 (326014267)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.326 (326014267)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.318 (326081296)|CODE_UNIT_FINISHED|Repository_Tests.WhenEchoing_ShouldReturnGivenList
+14:17:27.318 (327853357)|EXECUTION_FINISHED
+14:17:27.350 (350825266)|EXECUTION_STARTED
+14:17:27.350 (350838031)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenModifyingList_ShouldSaveResults
+14:17:27.350 (351348590)|ENTERING_MANAGED_PKG|
+14:17:27.350 (351431527)|DML_BEGIN|[111]|Op:Insert|Type:Account|Rows:2
+14:17:27.350 (354765164)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.350 (354777713)|DUPLICATE_DETECTION_BEGIN
+14:17:27.350 (354842708)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.350 (373116592)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.350 (373126863)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.350 (373135866)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:2|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.350 (373226024)|DUPLICATE_DETECTION_END
+14:17:27.350 (373261124)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.350 (403734835)|DML_END|[111]
+14:17:27.350 (403810378)|ENTERING_MANAGED_PKG|
+14:17:27.350 (406738916)|SYSTEM_MODE_ENTER|false
+14:17:27.350 (406749413)|SYSTEM_MODE_EXIT|false
+14:17:27.350 (406800404)|SYSTEM_MODE_ENTER|false
+14:17:27.350 (406823835)|SYSTEM_MODE_EXIT|false
+14:17:27.350 (406829095)|SYSTEM_MODE_ENTER|false
+14:17:27.350 (406831407)|SYSTEM_MODE_EXIT|false
+14:17:27.350 (406893686)|SYSTEM_MODE_ENTER|false
+14:17:27.350 (406952628)|DML_BEGIN|[18]|Op:Update|Type:Account|Rows:2
+14:17:27.350 (424606620)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.350 (424625743)|DUPLICATE_DETECTION_BEGIN
+14:17:27.350 (424718133)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+14:17:27.350 (424725014)|DUPLICATE_DETECTION_END
+14:17:27.350 (424770058)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.350 (449662400)|DML_END|[18]
+14:17:27.350 (449740676)|SYSTEM_MODE_EXIT|false
+14:17:27.350 (454377284)|SOQL_EXECUTE_BEGIN|[121]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.350 (458366342)|SOQL_EXECUTE_END|[121]|Rows:2
+14:17:27.350 (458455174)|ENTERING_MANAGED_PKG|
+14:17:27.350 (458501904)|ENTERING_MANAGED_PKG|
+14:17:27.350 (458566126)|ENTERING_MANAGED_PKG|
+14:17:27.350 (458633170)|ENTERING_MANAGED_PKG|
+14:17:27.458 (458674017)|CUMULATIVE_LIMIT_USAGE
+14:17:27.458 (458674017)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.458 (458674017)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.458 (458674017)|TESTING_LIMITS
+14:17:27.458 (458674017)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.458 (458674017)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.458 (458674017)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.350 (458751413)|CODE_UNIT_FINISHED|Repository_Tests.WhenModifyingList_ShouldSaveResults
+14:17:27.350 (459915650)|EXECUTION_FINISHED
+14:17:27.487 (487189239)|EXECUTION_STARTED
+14:17:27.487 (487206764)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenModifying_ShouldSaveResults
+14:17:27.487 (487731570)|DML_BEGIN|[85]|Op:Insert|Type:Account|Rows:1
+14:17:27.487 (490734492)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.487 (490746928)|DUPLICATE_DETECTION_BEGIN
+14:17:27.487 (490813391)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.487 (513308296)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.487 (513331058)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.487 (513459835)|DUPLICATE_DETECTION_END
+14:17:27.487 (513510742)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.487 (539080152)|DML_END|[85]
+14:17:27.487 (542132410)|SYSTEM_MODE_ENTER|false
+14:17:27.487 (542147698)|SYSTEM_MODE_EXIT|false
+14:17:27.487 (542215039)|SYSTEM_MODE_ENTER|false
+14:17:27.487 (542251393)|SYSTEM_MODE_EXIT|false
+14:17:27.487 (542260502)|SYSTEM_MODE_ENTER|false
+14:17:27.487 (542264815)|SYSTEM_MODE_EXIT|false
+14:17:27.487 (542349786)|SYSTEM_MODE_ENTER|false
+14:17:27.487 (542423811)|DML_BEGIN|[15]|Op:Update|Type:Account|Rows:1
+14:17:27.487 (550947396)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.487 (550969912)|DUPLICATE_DETECTION_BEGIN
+14:17:27.487 (551069187)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+14:17:27.487 (551077057)|DUPLICATE_DETECTION_END
+14:17:27.487 (551124816)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.487 (567176114)|DML_END|[15]
+14:17:27.487 (567208624)|SYSTEM_MODE_EXIT|false
+14:17:27.487 (571837485)|SOQL_EXECUTE_BEGIN|[94]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.487 (576635293)|SOQL_EXECUTE_END|[94]|Rows:1
+14:17:27.487 (576728597)|ENTERING_MANAGED_PKG|
+14:17:27.487 (576779174)|ENTERING_MANAGED_PKG|
+14:17:27.487 (576845135)|ENTERING_MANAGED_PKG|
+14:17:27.576 (576896972)|CUMULATIVE_LIMIT_USAGE
+14:17:27.576 (576896972)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.576 (576896972)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.576 (576896972)|TESTING_LIMITS
+14:17:27.576 (576896972)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.576 (576896972)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.576 (576896972)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.487 (576976285)|CODE_UNIT_FINISHED|Repository_Tests.WhenModifying_ShouldSaveResults
+14:17:27.487 (578511438)|EXECUTION_FINISHED
+14:17:27.605 (605054995)|EXECUTION_STARTED
+14:17:27.605 (605079016)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenQuerying_ShouldReturnResults
+14:17:27.605 (605715153)|DML_BEGIN|[8]|Op:Insert|Type:Account|Rows:1
+14:17:27.605 (609113378)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.605 (609130162)|DUPLICATE_DETECTION_BEGIN
+14:17:27.605 (609201365)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.605 (631058830)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.605 (631078240)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.605 (631172464)|DUPLICATE_DETECTION_END
+14:17:27.605 (631205758)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.605 (650713747)|DML_END|[8]
+14:17:27.605 (653665203)|SYSTEM_MODE_ENTER|false
+14:17:27.605 (653676328)|SYSTEM_MODE_EXIT|false
+14:17:27.605 (653736345)|SYSTEM_MODE_ENTER|false
+14:17:27.605 (653763019)|SYSTEM_MODE_EXIT|false
+14:17:27.605 (653768108)|SYSTEM_MODE_ENTER|false
+14:17:27.605 (653770439)|SYSTEM_MODE_EXIT|false
+14:17:27.605 (653869980)|SYSTEM_MODE_ENTER|false
+14:17:27.605 (653909042)|ENTERING_MANAGED_PKG|
+14:17:27.605 (654076110)|SOQL_EXECUTE_BEGIN|[3]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.605 (658651775)|SOQL_EXECUTE_END|[3]|Rows:1
+14:17:27.605 (658725665)|SYSTEM_MODE_EXIT|false
+14:17:27.605 (663288658)|ENTERING_MANAGED_PKG|
+14:17:27.605 (663333927)|ENTERING_MANAGED_PKG|
+14:17:27.605 (663398405)|ENTERING_MANAGED_PKG|
+14:17:27.663 (663453896)|CUMULATIVE_LIMIT_USAGE
+14:17:27.663 (663453896)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.663 (663453896)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.663 (663453896)|TESTING_LIMITS
+14:17:27.663 (663453896)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.663 (663453896)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.663 (663453896)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.605 (663529664)|CODE_UNIT_FINISHED|Repository_Tests.WhenQuerying_ShouldReturnResults
+14:17:27.605 (666034641)|EXECUTION_FINISHED
+14:17:27.725 (725265432)|EXECUTION_STARTED
+14:17:27.725 (725296284)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenRemovingList_ShouldRemoveItems
+14:17:27.725 (725862196)|ENTERING_MANAGED_PKG|
+14:17:27.725 (725965785)|DML_BEGIN|[221]|Op:Insert|Type:Account|Rows:2
+14:17:27.725 (729252560)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.725 (729264644)|DUPLICATE_DETECTION_BEGIN
+14:17:27.725 (729327572)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.725 (750450998)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.725 (750461733)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.725 (750475092)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:2|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.725 (750622628)|DUPLICATE_DETECTION_END
+14:17:27.725 (750674749)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.725 (782241781)|DML_END|[221]
+14:17:27.725 (785651544)|SYSTEM_MODE_ENTER|false
+14:17:27.725 (785665231)|SYSTEM_MODE_EXIT|false
+14:17:27.725 (785729156)|SYSTEM_MODE_ENTER|false
+14:17:27.725 (785757905)|SYSTEM_MODE_EXIT|false
+14:17:27.725 (785763158)|SYSTEM_MODE_ENTER|false
+14:17:27.725 (785765625)|SYSTEM_MODE_EXIT|false
+14:17:27.725 (785839010)|SYSTEM_MODE_ENTER|false
+14:17:27.725 (785908254)|DML_BEGIN|[30]|Op:Delete|Type:Account|Rows:2
+14:17:27.725 (925650396)|DML_END|[30]
+14:17:27.725 (925813502)|SYSTEM_MODE_EXIT|false
+14:17:27.725 (929562049)|SOQL_EXECUTE_BEGIN|[228]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.725 (935001171)|SOQL_EXECUTE_END|[228]|Rows:0
+14:17:27.725 (935092507)|ENTERING_MANAGED_PKG|
+14:17:27.725 (935145624)|ENTERING_MANAGED_PKG|
+14:17:27.935 (935187330)|CUMULATIVE_LIMIT_USAGE
+14:17:27.935 (935187330)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.935 (935187330)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.935 (935187330)|TESTING_LIMITS
+14:17:27.935 (935187330)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.935 (935187330)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.935 (935187330)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.725 (935274902)|CODE_UNIT_FINISHED|Repository_Tests.WhenRemovingList_ShouldRemoveItems
+14:17:27.725 (937098981)|EXECUTION_FINISHED
+14:17:27.968 (968059907)|EXECUTION_STARTED
+14:17:27.968 (968080131)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenRemoving_ShouldRemoveItems
+14:17:27.968 (968655675)|DML_BEGIN|[197]|Op:Insert|Type:Account|Rows:1
+14:17:27.968 (972340678)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:27.968 (972355022)|DUPLICATE_DETECTION_BEGIN
+14:17:27.968 (972422043)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:27.968 (999202408)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:27.968 (999223451)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:27.968 (999320769)|DUPLICATE_DETECTION_END
+14:17:27.968 (999360358)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:27.968 (1032968571)|DML_END|[197]
+14:17:27.968 (1036186486)|SYSTEM_MODE_ENTER|false
+14:17:27.968 (1036200849)|SYSTEM_MODE_EXIT|false
+14:17:27.968 (1036263439)|SYSTEM_MODE_ENTER|false
+14:17:27.968 (1036291127)|SYSTEM_MODE_EXIT|false
+14:17:27.968 (1036296134)|SYSTEM_MODE_ENTER|false
+14:17:27.968 (1036298542)|SYSTEM_MODE_EXIT|false
+14:17:27.968 (1036369322)|SYSTEM_MODE_ENTER|false
+14:17:27.968 (1036430810)|DML_BEGIN|[27]|Op:Delete|Type:Account|Rows:1
+14:17:27.968 (1137452249)|DML_END|[27]
+14:17:27.968 (1137499670)|SYSTEM_MODE_EXIT|false
+14:17:27.968 (1140797282)|SOQL_EXECUTE_BEGIN|[205]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:27.968 (1145316077)|SOQL_EXECUTE_END|[205]|Rows:0
+14:17:27.968 (1145417961)|ENTERING_MANAGED_PKG|
+14:17:27.968 (1145472642)|ENTERING_MANAGED_PKG|
+14:17:28.145 (1145514265)|CUMULATIVE_LIMIT_USAGE
+14:17:28.145 (1145514265)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.145 (1145514265)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.145 (1145514265)|TESTING_LIMITS
+14:17:28.145 (1145514265)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.145 (1145514265)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.145 (1145514265)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.968 (1145606442)|CODE_UNIT_FINISHED|Repository_Tests.WhenRemoving_ShouldRemoveItems
+14:17:27.968 (1147200004)|EXECUTION_FINISHED
+14:17:28.175 (1175121398)|EXECUTION_STARTED
+14:17:28.175 (1175142776)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenSavingList_ShouldCreateAndChangeResults
+14:17:28.175 (1175730389)|DML_BEGIN|[170]|Op:Insert|Type:Account|Rows:1
+14:17:28.175 (1179363325)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.175 (1179376342)|DUPLICATE_DETECTION_BEGIN
+14:17:28.175 (1179440082)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:28.175 (1202680527)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:28.175 (1202700940)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:28.175 (1202795392)|DUPLICATE_DETECTION_END
+14:17:28.175 (1202833627)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.175 (1230699548)|DML_END|[170]
+14:17:28.175 (1230911863)|ENTERING_MANAGED_PKG|
+14:17:28.175 (1233531288)|SYSTEM_MODE_ENTER|false
+14:17:28.175 (1233543837)|SYSTEM_MODE_EXIT|false
+14:17:28.175 (1233600316)|SYSTEM_MODE_ENTER|false
+14:17:28.175 (1233625243)|SYSTEM_MODE_EXIT|false
+14:17:28.175 (1233630513)|SYSTEM_MODE_ENTER|false
+14:17:28.175 (1233633102)|SYSTEM_MODE_EXIT|false
+14:17:28.175 (1233703222)|SYSTEM_MODE_ENTER|false
+14:17:28.175 (1233795606)|DML_BEGIN|[24]|Op:Upsert|Type:Account|Rows:2
+14:17:28.175 (1237295730)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.175 (1237311293)|DUPLICATE_DETECTION_BEGIN
+14:17:28.175 (1237375361)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:28.175 (1259949143)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:28.175 (1259968525)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:28.175 (1260063449)|DUPLICATE_DETECTION_END
+14:17:28.175 (1260102861)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.175 (1290902648)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.175 (1290925405)|DUPLICATE_DETECTION_BEGIN
+14:17:28.175 (1290989891)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+14:17:28.175 (1290995454)|DUPLICATE_DETECTION_END
+14:17:28.175 (1291040587)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.175 (1306326314)|DML_END|[24]
+14:17:28.175 (1306490802)|SYSTEM_MODE_EXIT|false
+14:17:28.175 (1311024275)|SOQL_EXECUTE_BEGIN|[185]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:28.175 (1315213929)|SOQL_EXECUTE_END|[185]|Rows:2
+14:17:28.175 (1315303908)|ENTERING_MANAGED_PKG|
+14:17:28.175 (1315359527)|ENTERING_MANAGED_PKG|
+14:17:28.175 (1315443171)|ENTERING_MANAGED_PKG|
+14:17:28.175 (1315532781)|ENTERING_MANAGED_PKG|
+14:17:28.315 (1315582191)|CUMULATIVE_LIMIT_USAGE
+14:17:28.315 (1315582191)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.315 (1315582191)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.315 (1315582191)|TESTING_LIMITS
+14:17:28.315 (1315582191)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.315 (1315582191)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.315 (1315582191)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.175 (1315664817)|CODE_UNIT_FINISHED|Repository_Tests.WhenSavingList_ShouldCreateAndChangeResults
+14:17:28.175 (1316910622)|EXECUTION_FINISHED
+14:17:28.344 (1344360257)|EXECUTION_STARTED
+14:17:28.344 (1344381479)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenSaving_ShouldChangeResults
+14:17:28.344 (1344949167)|DML_BEGIN|[150]|Op:Insert|Type:Account|Rows:1
+14:17:28.344 (1347967317)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.344 (1347979969)|DUPLICATE_DETECTION_BEGIN
+14:17:28.344 (1348042020)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:28.344 (1366948227)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:28.344 (1366967203)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:28.344 (1367059770)|DUPLICATE_DETECTION_END
+14:17:28.344 (1367096314)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.344 (1386813760)|DML_END|[150]
+14:17:28.344 (1390404985)|SYSTEM_MODE_ENTER|false
+14:17:28.344 (1390417779)|SYSTEM_MODE_EXIT|false
+14:17:28.344 (1390479640)|SYSTEM_MODE_ENTER|false
+14:17:28.344 (1390507087)|SYSTEM_MODE_EXIT|false
+14:17:28.344 (1390512229)|SYSTEM_MODE_ENTER|false
+14:17:28.344 (1390514778)|SYSTEM_MODE_EXIT|false
+14:17:28.344 (1390591310)|SYSTEM_MODE_ENTER|false
+14:17:28.344 (1390659925)|DML_BEGIN|[21]|Op:Upsert|Type:Account|Rows:1
+14:17:28.344 (1400381782)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.344 (1400400402)|DUPLICATE_DETECTION_BEGIN
+14:17:28.344 (1400470272)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+14:17:28.344 (1400476644)|DUPLICATE_DETECTION_END
+14:17:28.344 (1400521347)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.344 (1415591297)|DML_END|[21]
+14:17:28.344 (1415641462)|SYSTEM_MODE_EXIT|false
+14:17:28.344 (1419344427)|SOQL_EXECUTE_BEGIN|[159]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:28.344 (1424178532)|SOQL_EXECUTE_END|[159]|Rows:1
+14:17:28.344 (1424277593)|ENTERING_MANAGED_PKG|
+14:17:28.344 (1424329160)|ENTERING_MANAGED_PKG|
+14:17:28.344 (1424399469)|ENTERING_MANAGED_PKG|
+14:17:28.424 (1424453047)|CUMULATIVE_LIMIT_USAGE
+14:17:28.424 (1424453047)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.424 (1424453047)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.424 (1424453047)|TESTING_LIMITS
+14:17:28.424 (1424453047)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.424 (1424453047)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.424 (1424453047)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.344 (1424534305)|CODE_UNIT_FINISHED|Repository_Tests.WhenSaving_ShouldChangeResults
+14:17:28.344 (1426217275)|EXECUTION_FINISHED
+14:17:28.447 (1447837425)|EXECUTION_STARTED
+14:17:28.447 (1447858392)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHCrn|Repository_Tests.WhenSaving_ShouldCreateNewResults
+14:17:28.447 (1451138687)|SYSTEM_MODE_ENTER|false
+14:17:28.447 (1451151730)|SYSTEM_MODE_EXIT|false
+14:17:28.447 (1451207118)|SYSTEM_MODE_ENTER|false
+14:17:28.447 (1451229278)|SYSTEM_MODE_EXIT|false
+14:17:28.447 (1451234426)|SYSTEM_MODE_ENTER|false
+14:17:28.447 (1451236975)|SYSTEM_MODE_EXIT|false
+14:17:28.447 (1451276868)|SYSTEM_MODE_ENTER|false
+14:17:28.447 (1451341647)|DML_BEGIN|[21]|Op:Upsert|Type:Account|Rows:1
+14:17:28.447 (1454747858)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.447 (1454761706)|DUPLICATE_DETECTION_BEGIN
+14:17:28.447 (1454823851)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:28.447 (1472501797)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+14:17:28.447 (1472519336)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+14:17:28.447 (1472612109)|DUPLICATE_DETECTION_END
+14:17:28.447 (1472648113)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.447 (1497965324)|DML_END|[21]
+14:17:28.447 (1498014426)|SYSTEM_MODE_EXIT|false
+14:17:28.447 (1501298605)|SOQL_EXECUTE_BEGIN|[139]|Aggregations:0|SELECT Id, Name FROM Account
+14:17:28.447 (1505682318)|SOQL_EXECUTE_END|[139]|Rows:1
+14:17:28.447 (1505781609)|ENTERING_MANAGED_PKG|
+14:17:28.447 (1505832015)|ENTERING_MANAGED_PKG|
+14:17:28.447 (1505895362)|ENTERING_MANAGED_PKG|
+14:17:28.505 (1505948476)|CUMULATIVE_LIMIT_USAGE
+14:17:28.505 (1505948476)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.505 (1505948476)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.505 (1505948476)|TESTING_LIMITS
+14:17:28.505 (1505948476)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.505 (1505948476)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.505 (1505948476)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.447 (1506029722)|CODE_UNIT_FINISHED|Repository_Tests.WhenSaving_ShouldCreateNewResults
+14:17:28.447 (1507201723)|EXECUTION_FINISHED
+14:17:28.717 (1717552012)|EXECUTION_STARTED
+14:17:28.717 (1717577863)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.717 (1717591576)|DUPLICATE_DETECTION_BEGIN
+14:17:28.717 (1717649178)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+14:17:28.717 (1778626995)|DUPLICATE_DETECTION_END
+14:17:28.717 (1778681908)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.717 (1780174775)|EXECUTION_FINISHED
+14:17:28.782 (1782581751)|EXECUTION_STARTED
+14:17:28.782 (1782595700)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+14:17:28.782 (1782607937)|DUPLICATE_DETECTION_BEGIN
+14:17:28.782 (1782664817)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm360000015Q5Y|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+14:17:28.782 (1837183805)|DUPLICATE_DETECTION_END
+14:17:28.782 (1837235622)|CODE_UNIT_FINISHED|DuplicateDetector
+14:17:28.782 (1838596458)|EXECUTION_FINISHED

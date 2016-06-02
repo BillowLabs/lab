@@ -1,0 +1,139 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+11:44:37.0 (56067)|EXECUTION_STARTED
+11:44:37.0 (118986)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHIc8|FutureRequest_Tests.WhenHandlerDoesntImplementInterface_ShouldThrowException
+11:44:37.0 (1792801)|SYSTEM_MODE_ENTER|false
+11:44:37.0 (1799648)|SYSTEM_MODE_EXIT|false
+11:44:37.0 (1860931)|SYSTEM_MODE_ENTER|false
+11:44:37.0 (1883546)|SYSTEM_MODE_EXIT|false
+11:44:37.0 (1888871)|SYSTEM_MODE_ENTER|false
+11:44:37.0 (1891299)|SYSTEM_MODE_EXIT|false
+11:44:37.0 (5014881)|SYSTEM_MODE_ENTER|false
+11:44:37.0 (7004141)|EXCEPTION_THROWN|[9]|LabTools.ApplicationException: LabTools.FutureRequest_Tests must implement LabTools.IHttpResponseHandler
+11:44:37.0 (7018774)|SYSTEM_MODE_EXIT|false
+11:44:37.0 (7037103)|EXCEPTION_THROWN|[12]|LabTools.ApplicationException: LabTools.FutureRequest_Tests must implement LabTools.IHttpResponseHandler
+11:44:37.0 (10626310)|ENTERING_MANAGED_PKG|
+11:44:37.10 (10672027)|CUMULATIVE_LIMIT_USAGE
+11:44:37.10 (10672027)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.10 (10672027)|TESTING_LIMITS
+11:44:37.10 (10672027)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.10 (10672027)|CUMULATIVE_LIMIT_USAGE_END
+
+11:44:37.0 (10717250)|CODE_UNIT_FINISHED|FutureRequest_Tests.WhenHandlerDoesntImplementInterface_ShouldThrowException
+11:44:37.0 (12419211)|EXECUTION_FINISHED
+11:44:37.50 (50929246)|EXECUTION_STARTED
+11:44:37.50 (50940145)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHIc8|FutureRequest_Tests.WhenSettingHandler_ShouldUseTypeName
+11:44:37.50 (52303295)|SYSTEM_MODE_ENTER|false
+11:44:37.50 (52312100)|SYSTEM_MODE_EXIT|false
+11:44:37.50 (52354172)|SYSTEM_MODE_ENTER|false
+11:44:37.50 (52376841)|SYSTEM_MODE_EXIT|false
+11:44:37.50 (52381845)|SYSTEM_MODE_ENTER|false
+11:44:37.50 (52384399)|SYSTEM_MODE_EXIT|false
+11:44:37.50 (57126482)|SYSTEM_MODE_ENTER|false
+11:44:37.50 (57400889)|SYSTEM_MODE_EXIT|false
+11:44:37.50 (61578156)|ENTERING_MANAGED_PKG|
+11:44:37.61 (61614169)|CUMULATIVE_LIMIT_USAGE
+11:44:37.61 (61614169)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.61 (61614169)|TESTING_LIMITS
+11:44:37.61 (61614169)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.61 (61614169)|CUMULATIVE_LIMIT_USAGE_END
+
+11:44:37.50 (61676483)|CODE_UNIT_FINISHED|FutureRequest_Tests.WhenSettingHandler_ShouldUseTypeName
+11:44:37.50 (62784023)|EXECUTION_FINISHED
+11:44:37.89 (89484096)|EXECUTION_STARTED
+11:44:37.89 (89502171)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHIc8|FutureRequest_Tests.WhenUsingGet_ShouldSetMethodAndEndpoint
+11:44:37.89 (90774849)|SYSTEM_MODE_ENTER|false
+11:44:37.89 (90790416)|SYSTEM_MODE_EXIT|false
+11:44:37.89 (90866766)|SYSTEM_MODE_ENTER|false
+11:44:37.89 (90897928)|SYSTEM_MODE_EXIT|false
+11:44:37.89 (90903544)|SYSTEM_MODE_ENTER|false
+11:44:37.89 (90906398)|SYSTEM_MODE_EXIT|false
+11:44:37.89 (104156077)|SYSTEM_MODE_ENTER|false
+11:44:37.89 (104173601)|SYSTEM_MODE_EXIT|false
+11:44:37.89 (107705784)|ENTERING_MANAGED_PKG|
+11:44:37.89 (107771348)|ENTERING_MANAGED_PKG|
+11:44:37.107 (107808884)|CUMULATIVE_LIMIT_USAGE
+11:44:37.107 (107808884)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.107 (107808884)|TESTING_LIMITS
+11:44:37.107 (107808884)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:44:37.107 (107808884)|CUMULATIVE_LIMIT_USAGE_END
+
+11:44:37.89 (107863746)|CODE_UNIT_FINISHED|FutureRequest_Tests.WhenUsingGet_ShouldSetMethodAndEndpoint
+11:44:37.89 (109487746)|EXECUTION_FINISHED

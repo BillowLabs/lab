@@ -1,0 +1,79 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+12:18:59.0 (72575)|EXECUTION_STARTED
+12:18:59.0 (127169)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIHwj|JobRunnerSchedule_Tests.WhenConstructing_ShouldNotFail
+12:18:59.0 (6542835)|SYSTEM_MODE_ENTER|false
+12:18:59.0 (6553356)|SYSTEM_MODE_EXIT|false
+12:18:59.0 (7395155)|SYSTEM_MODE_ENTER|false
+12:18:59.0 (8526836)|SYSTEM_MODE_EXIT|false
+12:18:59.0 (11215226)|ENTERING_MANAGED_PKG|
+12:18:59.11 (11333259)|CUMULATIVE_LIMIT_USAGE
+12:18:59.11 (11333259)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:18:59.11 (11333259)|TESTING_LIMITS
+12:18:59.11 (11333259)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:18:59.11 (11333259)|CUMULATIVE_LIMIT_USAGE_END
+
+12:18:59.0 (11395659)|CODE_UNIT_FINISHED|JobRunnerSchedule_Tests.WhenConstructing_ShouldNotFail
+12:18:59.0 (12697549)|EXECUTION_FINISHED
+12:18:59.37 (37329108)|EXECUTION_STARTED
+12:18:59.37 (37345929)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIHwj|JobRunnerSchedule_Tests.WhenExecuting_ShouldExecuteSchedulableOnce
+12:18:59.37 (42746425)|ENTERING_MANAGED_PKG|
+12:18:59.42 (42826963)|CUMULATIVE_LIMIT_USAGE
+12:18:59.42 (42826963)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:18:59.42 (42826963)|TESTING_LIMITS
+12:18:59.42 (42826963)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:18:59.42 (42826963)|CUMULATIVE_LIMIT_USAGE_END
+
+12:18:59.37 (42890217)|CODE_UNIT_FINISHED|JobRunnerSchedule_Tests.WhenExecuting_ShouldExecuteSchedulableOnce
+12:18:59.37 (43968993)|EXECUTION_FINISHED

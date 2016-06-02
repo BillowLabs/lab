@@ -1,16 +1,13 @@
-global class HeartbeatJob implements Database.Batchable<sObject> {
+public with sharing class HeartbeatJob implements IJob {
 
-	global Database.QueryLocator start(Database.BatchableContext BC) {
+	public Database.QueryLocator Query() {
 		System.debug('Heartbeat Job Started');
-		return Database.getQueryLocator([SELECT Id FROM Account WHERE Id = NULL]);
+		return Database.getQueryLocator([SELECT Id FROM LabTools__Job__c]);
 	}
 
-	global void execute(Database.BatchableContext BC, List<sObject> scope) {
+	public void Process(List<sObject> scope) {
 		System.debug('Heartbeat Job Executing');
-	}
-
-	global void finish(Database.BatchableContext BC) {
-		System.debug('Heartbeat Job Finished');
+		System.debug('Heartbeat Job - Number of Jobs: ' + scope.size());
 	}
 
 }

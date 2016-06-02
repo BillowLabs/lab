@@ -14,14 +14,14 @@
             ],
             "location": {
                 "column": 22,
-                "line": 4
+                "line": 6
             },
             "modifiers": [
                 "private",
                 "static",
                 "testMethod"
             ],
-            "name": "WhenStarts_ShouldReturnAccountsList",
+            "name": "WhenStarts_ShouldReturnLocator",
             "parameters": [],
             "references": [],
             "returnType": "void",
@@ -35,35 +35,14 @@
             ],
             "location": {
                 "column": 22,
-                "line": 16
+                "line": 18
             },
             "modifiers": [
                 "private",
                 "static",
                 "testMethod"
             ],
-            "name": "WhenExecutes_ShouldNotFail",
-            "parameters": [],
-            "references": [],
-            "returnType": "void",
-            "type": null
-        },
-        {
-            "annotations": [
-                {
-                    "name": "IsTest"
-                }
-            ],
-            "location": {
-                "column": 22,
-                "line": 28
-            },
-            "modifiers": [
-                "private",
-                "static",
-                "testMethod"
-            ],
-            "name": "WhenFinishes_ShouldNotFail",
+            "name": "WhenProcesses_ShouldNotFail",
             "parameters": [],
             "references": [],
             "returnType": "void",
@@ -97,7 +76,7 @@
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 6
+                "line": 8
             },
             "modifiers": [],
             "name": "job",
@@ -108,7 +87,7 @@
             "annotations": [],
             "location": {
                 "column": 25,
-                "line": 9
+                "line": 11
             },
             "modifiers": [],
             "name": "locator",
@@ -119,18 +98,7 @@
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 18
-            },
-            "modifiers": [],
-            "name": "job",
-            "references": [],
-            "type": "HeartbeatJob"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 16,
-                "line": 30
+                "line": 20
             },
             "modifiers": [],
             "name": "job",

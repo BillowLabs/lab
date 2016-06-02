@@ -4,7 +4,7 @@
             "annotations": [],
             "location": {
                 "column": 9,
-                "line": 69
+                "line": 43
             },
             "modifiers": [
                 "public"
@@ -22,7 +22,7 @@
             ],
             "location": {
                 "column": 23,
-                "line": 73
+                "line": 47
             },
             "modifiers": [
                 "private"
@@ -32,6 +32,10 @@
                 {
                     "name": "r",
                     "type": "IRepository"
+                },
+                {
+                    "name": "n",
+                    "type": "Datetime"
                 }
             ],
             "references": [],
@@ -42,7 +46,7 @@
     "id": "01p3600000DHKdZAAX",
     "innerClasses": [],
     "interfaces": [
-        "System.Schedulable"
+        "LabTools.ISchedulable"
     ],
     "key": "01p3600000DHKdZAAX",
     "methods": [
@@ -50,18 +54,13 @@
             "annotations": [],
             "location": {
                 "column": 14,
-                "line": 5
+                "line": 3
             },
             "modifiers": [
-                "global"
+                "public"
             ],
             "name": "execute",
-            "parameters": [
-                {
-                    "name": "sc",
-                    "type": "SchedulableContext"
-                }
-            ],
+            "parameters": [],
             "references": [],
             "returnType": "void",
             "type": null
@@ -74,8 +73,8 @@
         {
             "annotations": [],
             "location": {
-                "column": 14,
-                "line": 79
+                "column": 22,
+                "line": 55
             },
             "modifiers": [
                 "private"
@@ -83,16 +82,30 @@
             "name": "repository",
             "references": [],
             "type": "IRepository"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 56
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
         }
     ],
     "tableDeclaration": {
         "annotations": [],
         "location": {
-            "column": 14,
+            "column": 27,
             "line": 1
         },
         "modifiers": [
-            "global"
+            "public",
+            "with sharing"
         ],
         "name": "JobRunner",
         "references": [],
@@ -102,30 +115,8 @@
         {
             "annotations": [],
             "location": {
-                "column": 41,
-                "line": 5
-            },
-            "modifiers": [],
-            "name": "sc",
-            "references": [],
-            "type": "SchedulableContext"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 12,
-                "line": 7
-            },
-            "modifiers": [],
-            "name": "now",
-            "references": [],
-            "type": "Datetime"
-        },
-        {
-            "annotations": [],
-            "location": {
                 "column": 29,
-                "line": 8
+                "line": 6
             },
             "modifiers": [],
             "name": "runners",
@@ -135,19 +126,8 @@
         {
             "annotations": [],
             "location": {
-                "column": 26,
-                "line": 20
-            },
-            "modifiers": [],
-            "name": "jobs",
-            "references": [],
-            "type": "LIST"
-        },
-        {
-            "annotations": [],
-            "location": {
                 "column": 27,
-                "line": 22
+                "line": 15
             },
             "modifiers": [],
             "name": "runner",
@@ -158,7 +138,7 @@
             "annotations": [],
             "location": {
                 "column": 13,
-                "line": 24
+                "line": 17
             },
             "modifiers": [],
             "name": "next",
@@ -169,7 +149,7 @@
             "annotations": [],
             "location": {
                 "column": 25,
-                "line": 39
+                "line": 31
             },
             "modifiers": [],
             "name": "job",
@@ -179,35 +159,24 @@
         {
             "annotations": [],
             "location": {
-                "column": 11,
-                "line": 50
-            },
-            "modifiers": [],
-            "name": "targettype",
-            "references": [],
-            "type": "Type"
-        },
-        {
-            "annotations": [],
-            "location": {
-                "column": 34,
-                "line": 51
-            },
-            "modifiers": [],
-            "name": "obj",
-            "references": [],
-            "type": "Batchable"
-        },
-        {
-            "annotations": [],
-            "location": {
                 "column": 45,
-                "line": 73
+                "line": 47
             },
             "modifiers": [],
             "name": "r",
             "references": [],
             "type": "IRepository"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Datetime"
         }
     ]
 }

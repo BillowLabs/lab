@@ -1,0 +1,179 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+14:17:28.0 (77496)|EXECUTION_STARTED
+14:17:28.0 (169179)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHDD5|HttpClient_Tests.WhenMakingFutureRequest_ShouldHandleResponse
+14:17:28.0 (2942769)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (2954172)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3042562)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3075289)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3082396)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3084727)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3728971)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3736150)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3812393)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3830999)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3839576)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3844595)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (3943281)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (3960190)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (4508571)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (5211963)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (8624090)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (8743496)|ENTERING_MANAGED_PKG|
+14:17:28.0 (8992200)|ENTERING_MANAGED_PKG|
+14:17:28.0 (9142555)|SYSTEM_MODE_EXIT|false
+14:17:28.0 (13953645)|SYSTEM_MODE_ENTER|false
+14:17:28.0 (14507693)|CALLOUT_REQUEST|[19]|System.HttpRequest[Endpoint=http://www.google.com, Method=GET]
+14:17:28.0 (14673316)|ENTERING_MANAGED_PKG|
+14:17:28.0 (14730524)|ENTERING_MANAGED_PKG|
+14:17:28.0 (14868910)|CALLOUT_RESPONSE|[19]|System.HttpResponse[Status=null, StatusCode=200]
+14:17:28.0 (14924650)|ENTERING_MANAGED_PKG|
+14:17:28.0 (14964704)|USER_DEBUG|[22]|DEBUG|Handling with: LabTools.HttpClient_Tests.TestResponseHandler
+14:17:28.0 (17341951)|ENTERING_MANAGED_PKG|
+14:17:28.0 (17401796)|ENTERING_MANAGED_PKG|
+14:17:28.0 (17416602)|SYSTEM_MODE_EXIT|false
+14:17:28.17 (17431719)|CUMULATIVE_LIMIT_USAGE
+14:17:28.17 (17431719)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.17 (17431719)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.17 (17431719)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.0 (17473297)|CODE_UNIT_FINISHED|HttpClient.AsyncCall
+14:17:28.0 (21481478)|ENTERING_MANAGED_PKG|
+14:17:28.21 (21520473)|CUMULATIVE_LIMIT_USAGE
+14:17:28.21 (21520473)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.21 (21520473)|TESTING_LIMITS
+14:17:28.21 (21520473)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.21 (21520473)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.21 (21520473)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.0 (21557691)|CODE_UNIT_FINISHED|HttpClient_Tests.WhenMakingFutureRequest_ShouldHandleResponse
+14:17:28.0 (22626744)|EXECUTION_FINISHED
+14:17:28.46 (46082261)|EXECUTION_STARTED
+14:17:28.46 (46099452)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DHDD5|HttpClient_Tests.WhenMakingRequest_ShouldReturnResponse
+14:17:28.46 (47042290)|SYSTEM_MODE_ENTER|false
+14:17:28.46 (47055943)|SYSTEM_MODE_EXIT|false
+14:17:28.46 (47121503)|SYSTEM_MODE_ENTER|false
+14:17:28.46 (47155210)|SYSTEM_MODE_EXIT|false
+14:17:28.46 (47165947)|SYSTEM_MODE_ENTER|false
+14:17:28.46 (47170874)|SYSTEM_MODE_EXIT|false
+14:17:28.46 (51020912)|SYSTEM_MODE_ENTER|false
+14:17:28.46 (51234250)|CALLOUT_REQUEST|[4]|System.HttpRequest[Endpoint=http://www.google.com, Method=GET]
+14:17:28.46 (51375646)|ENTERING_MANAGED_PKG|
+14:17:28.46 (51444213)|ENTERING_MANAGED_PKG|
+14:17:28.46 (51588538)|CALLOUT_RESPONSE|[4]|System.HttpResponse[Status=null, StatusCode=200]
+14:17:28.46 (51616214)|SYSTEM_MODE_EXIT|false
+14:17:28.46 (54745561)|ENTERING_MANAGED_PKG|
+14:17:28.46 (54860537)|ENTERING_MANAGED_PKG|
+14:17:28.46 (54936422)|ENTERING_MANAGED_PKG|
+14:17:28.54 (54968130)|CUMULATIVE_LIMIT_USAGE
+14:17:28.54 (54968130)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.54 (54968130)|TESTING_LIMITS
+14:17:28.54 (54968130)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.54 (54968130)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:28.54 (54968130)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:28.46 (55035167)|CODE_UNIT_FINISHED|HttpClient_Tests.WhenMakingRequest_ShouldReturnResponse
+14:17:28.46 (56144369)|EXECUTION_FINISHED

@@ -2,7 +2,213 @@
     "constructors": [],
     "externalReferences": [],
     "id": "01p3600000DHL7QAAX",
-    "innerClasses": [],
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 115
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestRepo",
+                    "parameters": [
+                        {
+                            "name": "t",
+                            "type": "String"
+                        },
+                        {
+                            "name": "r",
+                            "type": "Decimal"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 97
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "Echo",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 109
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "Modify",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestRepo",
+            "namespace": "LabTools",
+            "parentClass": "LabTools.RepositoryTestStub",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 96
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "EchoCalled",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 107
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ModifyCalled",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 108
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Modified",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 120
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "recurrenceType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 121
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "recurrenceRate",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 94
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "TestRepo",
+                "references": [],
+                "type": "TestRepo"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 97
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 109
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 115
+                    },
+                    "modifiers": [],
+                    "name": "t",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 115
+                    },
+                    "modifiers": [],
+                    "name": "r",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ]
+        }
+    ],
     "interfaces": [],
     "key": "01p3600000DHL7QAAX",
     "methods": [
@@ -14,14 +220,98 @@
             ],
             "location": {
                 "column": 22,
-                "line": 10
+                "line": 4
             },
             "modifiers": [
                 "private",
                 "static",
                 "testMethod"
             ],
-            "name": "WhenRunning_ShouldNotFailOnLoadingJobs",
+            "name": "WhenHours_ShouldSetNextRunInHours",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 20
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenDays_ShouldSetNextRunInDays",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 36
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenMonths_ShouldSetNextRunInMonths",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 52
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenYears_ShouldSetNextRunInYears",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 68
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "WhenIntegrating_ShouldNotFailRun",
             "parameters": [],
             "references": [],
             "returnType": "void",
@@ -50,5 +340,171 @@
         "references": [],
         "type": "JobRunner_Tests"
     },
-    "variables": []
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "repo",
+            "references": [],
+            "type": "TestRepo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "jRunner",
+            "references": [],
+            "type": "JobRunner"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "repo",
+            "references": [],
+            "type": "TestRepo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "jRunner",
+            "references": [],
+            "type": "JobRunner"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "repo",
+            "references": [],
+            "type": "TestRepo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "jRunner",
+            "references": [],
+            "type": "JobRunner"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "repo",
+            "references": [],
+            "type": "TestRepo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "jRunner",
+            "references": [],
+            "type": "JobRunner"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "runner",
+            "references": [],
+            "type": "LabTools__Runner__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "testJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "jRunner",
+            "references": [],
+            "type": "JobRunner"
+        }
+    ]
 }

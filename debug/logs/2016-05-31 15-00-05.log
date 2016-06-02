@@ -1,0 +1,49 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+13:00:03.0 (693403)|EXECUTION_STARTED
+13:00:03.0 (728562)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000DIHiU|JobRunnerSchedule
+13:00:03.0 (92035900)|SYSTEM_MODE_ENTER|false
+13:00:03.0 (92057014)|SYSTEM_MODE_EXIT|false
+13:00:03.0 (92125456)|SYSTEM_MODE_ENTER|false
+13:00:03.0 (92977694)|SOQL_EXECUTE_BEGIN|[6]|Aggregations:1|SELECT Name, (SELECT Name FROM LabTools__Jobs__r) FROM LabTools__Runner__c WHERE (LabTools__StartOn__c <= :tmpVar1 AND (LabTools__NextRunOn__c = NULL OR LabTools__NextRunOn__c <= :tmpVar2)) ORDER BY LabTools__NextRunOn__c DESC NULLS FIRST LIMIT 5
+13:00:03.0 (109904131)|SOQL_EXECUTE_END|[6]|Rows:1
+13:00:03.0 (110418892)|ENTERING_MANAGED_PKG|
+13:00:03.0 (110539482)|ENTERING_MANAGED_PKG|
+13:00:03.0 (110891605)|EXCEPTION_THROWN|[20]|System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: LabTools__Runner__c.LabTools__RecurrenceType__c
+13:00:03.0 (110949349)|SYSTEM_MODE_EXIT|false
+13:00:03.0 (111039478)|FATAL_ERROR|System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: LabTools__Runner__c.LabTools__RecurrenceType__c
+
+Class.LabTools.JobRunner.execute: line 20, column 1
+Class.LabTools.JobRunnerSchedule.execute: line 7, column 1
+13:00:03.111 (111067891)|CUMULATIVE_LIMIT_USAGE
+13:00:03.111 (111067891)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+13:00:03.111 (111067891)|LIMIT_USAGE_FOR_NS|LabTools|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+13:00:03.111 (111067891)|CUMULATIVE_LIMIT_USAGE_END
+
+13:00:03.0 (111134114)|CODE_UNIT_FINISHED|JobRunnerSchedule
+13:00:03.0 (113863415)|EXECUTION_FINISHED

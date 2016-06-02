@@ -1,38 +1,29 @@
 @isTest
 private class HeartbeatJob_Tests
 {
-	@isTest static void WhenStarts_ShouldReturnAccountsList()
+
+
+	@isTest static void WhenStarts_ShouldReturnLocator()
 	{
 		HeartbeatJob job = new HeartbeatJob();
 
 		Test.startTest();
-		Database.QueryLocator locator = job.start(null);
+		Database.QueryLocator locator = job.Query();
 		Test.stopTest();
 
 		System.assert(locator != null);
 	}
 
 
-	@isTest static void WhenExecutes_ShouldNotFail()
+	@isTest static void WhenProcesses_ShouldNotFail()
 	{
 		HeartbeatJob job = new HeartbeatJob();
 
 		Test.startTest();
-		job.execute(null, null);
+		job.Process(new List<LabTools__Job__c>());
 		Test.stopTest();
 
 		System.assert(true);
 	}
 
-
-	@isTest static void WhenFinishes_ShouldNotFail()
-	{
-		HeartbeatJob job = new HeartbeatJob();
-
-		Test.startTest();
-		job.finish(null);
-		Test.stopTest();
-
-		System.assert(true);
-	}
 }
