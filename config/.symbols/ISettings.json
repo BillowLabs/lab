@@ -13,7 +13,7 @@
                 "line": 2
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "Read",
@@ -34,7 +34,7 @@
                 "line": 3
             },
             "modifiers": [
-                "public",
+                "global",
                 "abstract"
             ],
             "name": "ReadAll",
@@ -60,7 +60,7 @@
             "line": 1
         },
         "modifiers": [
-            "public"
+            "global"
         ],
         "name": "ISettings",
         "references": [],
