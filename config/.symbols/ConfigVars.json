@@ -1,18 +1,18 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000DKKKFAA5",
+    "id": "01p3600000Dl8yRAAR",
     "innerClasses": [],
     "interfaces": [
-        "LabTools.ISettings"
+        "LabTools.IConfigVars"
     ],
-    "key": "01p3600000DKKKFAA5",
+    "key": "01p3600000Dl8yRAAR",
     "methods": [
         {
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 4
+                "line": 3
             },
             "modifiers": [
                 "global"
@@ -32,7 +32,7 @@
             "annotations": [],
             "location": {
                 "column": 29,
-                "line": 16
+                "line": 15
             },
             "modifiers": [
                 "global"
@@ -49,33 +49,29 @@
             "type": null
         }
     ],
-    "name": "Settings",
+    "name": "ConfigVars",
     "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {
-        "annotations": [
-            {
-                "name": "Deprecated"
-            }
-        ],
+        "annotations": [],
         "location": {
             "column": 14,
-            "line": 2
+            "line": 1
         },
         "modifiers": [
             "global"
         ],
-        "name": "Settings",
+        "name": "ConfigVars",
         "references": [],
-        "type": "Settings"
+        "type": "ConfigVars"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
                 "column": 28,
-                "line": 4
+                "line": 3
             },
             "modifiers": [],
             "name": "key",
@@ -85,8 +81,8 @@
         {
             "annotations": [],
             "location": {
-                "column": 30,
-                "line": 5
+                "column": 32,
+                "line": 4
             },
             "modifiers": [],
             "name": "results",
@@ -97,7 +93,7 @@
             "annotations": [],
             "location": {
                 "column": 50,
-                "line": 16
+                "line": 15
             },
             "modifiers": [],
             "name": "keys",
@@ -107,8 +103,8 @@
         {
             "annotations": [],
             "location": {
-                "column": 30,
-                "line": 17
+                "column": 32,
+                "line": 16
             },
             "modifiers": [],
             "name": "values",
@@ -119,7 +115,7 @@
             "annotations": [],
             "location": {
                 "column": 23,
-                "line": 23
+                "line": 22
             },
             "modifiers": [],
             "name": "result",
@@ -129,13 +125,13 @@
         {
             "annotations": [],
             "location": {
-                "column": 28,
-                "line": 24
+                "column": 30,
+                "line": 23
             },
             "modifiers": [],
-            "name": "setting",
+            "name": "var",
             "references": [],
-            "type": "LabTools__Setting__c"
+            "type": "LabTools__ConfigVar__c"
         }
     ]
 }

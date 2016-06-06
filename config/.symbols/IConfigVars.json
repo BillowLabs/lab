@@ -1,16 +1,16 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000DKK76AAH",
+    "id": "01p3600000Dl8yHAAR",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000DKK76AAH",
+    "key": "01p3600000Dl8yHAAR",
     "methods": [
         {
             "annotations": [],
             "location": {
                 "column": 9,
-                "line": 3
+                "line": 2
             },
             "modifiers": [
                 "global",
@@ -31,7 +31,7 @@
             "annotations": [],
             "location": {
                 "column": 22,
-                "line": 4
+                "line": 3
             },
             "modifiers": [
                 "global",
@@ -49,33 +49,29 @@
             "type": null
         }
     ],
-    "name": "ISettings",
+    "name": "IConfigVars",
     "namespace": "LabTools",
     "parentClass": "",
     "properties": [],
     "tableDeclaration": {
-        "annotations": [
-            {
-                "name": "Deprecated"
-            }
-        ],
+        "annotations": [],
         "location": {
             "column": 18,
-            "line": 2
+            "line": 1
         },
         "modifiers": [
             "global"
         ],
-        "name": "ISettings",
+        "name": "IConfigVars",
         "references": [],
-        "type": "ISettings"
+        "type": "IConfigVars"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
                 "column": 21,
-                "line": 3
+                "line": 2
             },
             "modifiers": [],
             "name": "key",
@@ -86,7 +82,7 @@
             "annotations": [],
             "location": {
                 "column": 43,
-                "line": 4
+                "line": 3
             },
             "modifiers": [],
             "name": "keys",

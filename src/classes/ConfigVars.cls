@@ -1,10 +1,9 @@
-@deprecated
-global class Settings implements ISettings {
+global class ConfigVars implements IConfigVars {
 
 	global String Read(String key) {
-		List<LabTools__Setting__c> results = [
+		List<LabTools__ConfigVar__c> results = [
 			SELECT LabTools__Value__c
-			FROM LabTools__Setting__c
+			FROM LabTools__ConfigVar__c
 			WHERE Name = :key
 		];
 
@@ -14,15 +13,15 @@ global class Settings implements ISettings {
 	}
 
 	global Map<String, String> ReadAll(List<String> keys) {
-		List<LabTools__Setting__c> values = [
+		List<LabTools__ConfigVar__c> values = [
 			SELECT Name, LabTools__Value__c
-			FROM LabTools__Setting__c
+			FROM LabTools__ConfigVar__c
 			WHERE Name = :keys
 		];
 
 		Map<String, String> result = new Map<String, String>();
-		for(LabTools__Setting__c setting : values) {
-			result.put(setting.Name, setting.LabTools__Value__c);
+		for(LabTools__ConfigVar__c var : values) {
+			result.put(var.Name, var.LabTools__Value__c);
 		}
 
 		return result;
