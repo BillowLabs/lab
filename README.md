@@ -6,11 +6,8 @@
 
 To use Mavens Mate and GitHub:
 
-Add a "New Project" in Mavens Mate linked to the Salesforce instance.
-
-THEN 
-
-In a terminal session, navigate to the new project folder and enter the following:
+1. Add a "New Project" in Mavens Mate linked to the Salesforce instance.
+2. In a terminal session, navigate to the new project folder and enter the following:
 
 ```bash
 git init
