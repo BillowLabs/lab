@@ -2,7 +2,7 @@
 
 
 
-## Mavens Mate
+## Using Mavens Mate
 
 To use Mavens Mate and GitHub:
 
