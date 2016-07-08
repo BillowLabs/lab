@@ -43,3 +43,23 @@ git status
 2. Commit any Changes (Copy src to prod dir)
 3. Merge Pull Request & Resolve any Diffs
 4. Delete Branch
+
+## Git Cheat Sheet
+
+###Undo Changes
+```bash
+git reset --hard
+git clean -fd
+git checkout [branch]
+git pull
+```
+
+###Delete local branch
+```bash
+git branch -d [branch]
+```
+
+###Prune branches
+```bash
+git fetch -p 
+```
