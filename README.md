@@ -24,11 +24,11 @@ git status
 ```
 
 
-Starting Work:
+## Starting Work:
 1. Branch from Main
 2. . build/build.sh deploy
 3. Clean Project
-4.  Commit (there should be no changes - but if changes)
+4. Commit (there should be no changes - but if changes)
 
 Work:
 1. Make changes
