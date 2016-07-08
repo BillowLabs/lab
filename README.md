@@ -22,3 +22,28 @@ git reset --hard origin/[branch]
 git add .
 git status
 ```
+
+
+Starting Work:
+1. Branch from Main
+2. . build/build.sh deploy
+3. Clean Project
+4.  Commit (there should be no changes - but if changes)
+
+Work:
+1. Make changes
+2. Commit
+3. Push as needed (runs integration tests against Sandbox)
+
+Finishing work:
+1. Clean Project & Commit (if changes)
+2. Run build with tests -> ‘. build/build.sh’
+2. Commit changes & Push
+3. Create Pull Request (Add notes, steps, and Assign to Anna)
+4. Code Review
+
+Merging:
+1. Clean against Main
+2. Commit any Changes (Copy src to prod dir)
+2. Merge Pull Request & Resolve any Diffs
+3. Delete Branch
