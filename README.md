@@ -65,6 +65,8 @@ git fetch -p
 ```
 
 ### Clone into existing directory
+```bash
 git clone https://github.com/BillowLabs/[name].git ./temp
 mv temp/.git ./.git
 rm -rf ./temp
+```
