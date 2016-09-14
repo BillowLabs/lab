@@ -63,3 +63,8 @@ git branch -d [branch]
 ```bash
 git fetch -p 
 ```
+
+### Clone into existing directory
+git clone https://github.com/BillowLabs/[name].git ./temp
+mv temp/.git ./.git
+rm -rf ./temp
