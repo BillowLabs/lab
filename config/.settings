@@ -4,7 +4,7 @@
     "id": "1fe1c730-0b23-11e6-82e9-6f312e1dcd17",
     "namespace": "",
     "environment": "developer",
-    "loginUrl": "https://login.salesforce.com/",
+    "loginUrl": "",
     "workspace": "/Users/mhuensch/Documents/Salesforce",
     "subscription": [
         "ApexClass",

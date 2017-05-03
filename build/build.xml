@@ -1,0 +1,58 @@
+<project name="Billow Labs's Salesforce Instance" default="compile" basedir="." xmlns:sf="antlib:com.salesforce">
+
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+	<!-- <property file="build.properties"/> -->
+	<property environment="env"/>
+
+	<!--
+	SET the environment variables based on the branch
+	Specify the server URL based on what type of Salesforce org
+	Production        => https://login.salesforce.com
+	Developer Edition => https://login.salesforce.com
+	Sandbox           => https://test.salesforce.com
+	-->
+	<echo message="Defaulting username, password, and server"/>
+	<var name="username" value="${env.UNION_USERNAME}"/>
+	<var name="password" value="${env.UNION_PASSWORD}"/>
+	<var name="server" value="https://login.salesforce.com"/>
+
+	<if>
+			<equals arg1="${env.CI_BRANCH}" arg2="master" />
+			<then>
+				<echo message="Upgrading deployment to production"/>
+				<var name="username" value="${env.PROD_USERNAME}"/>
+				<var name="password" value="${env.PROD_PASSWORD}"/>
+				<var name="server" value="https://login.salesforce.com"/>
+			</then>
+	</if>
+
+
+	<echo message="Running against ${server} using ${username}"/>
+
+
+	<!-- Shows check only; never actually saves to the server -->
+	<target name="compile" description="Checks that Billow Labs's Instance can be deployed without making any changes">
+		<echo message="Run 'ant deploy' OR 'build/build.sh deploy' to deploy this instance."/>
+		<echo message="Testing the deployment Billow Labs's Salesforce Instance without making any changes..."/>
+		<sf:deploy username="${username}" password="${password}" serverurl="${server}" deployRoot="./src" checkOnly="true"/>
+	</target>
+
+	<!-- Run all the local tests as the testing default -->
+	<!-- <target name="test" description="Runs all the local tests Billow Labs's Instance simulating testing for production deployments">
+		<sf:deploy username="${username}" password="${password}" serverurl="${server}" deployRoot="./src" testLevel="RunLocalTests"/>
+	</target> -->
+
+	<!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged -->
+	<target name="push" description="Deploys Billow Labs's Salesforce Instance">
+		<echo message="Deploying Billow Labs's Salesforce Instance..."/>
+		<sf:deploy username="${username}" password="${password}" serverurl="${server}" deployRoot="./src" pollWaitMillis="40000"/>
+	</target>
+
+	<!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged -->
+	<target name="deploy" description="Deploys Billow Labs's Salesforce Instance">
+		<echo message="Deploying Billow Labs's Salesforce Instance..."/>
+		<sf:deploy username="${username}" password="${password}" serverurl="${server}" deployRoot="./src" testLevel="RunLocalTests" pollWaitMillis="40000"/>
+	</target>
+
+</project>

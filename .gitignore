@@ -5,3 +5,5 @@
 */dist
 */debug
 *temp_deploy.sh
+
+.DS_Store

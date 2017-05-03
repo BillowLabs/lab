@@ -1,6 +1,9 @@
 <apex:page showHeader="true" sidebar="true" standardStyleSheets="false">
 
 	<apex:includeScript value="{!URLFOR($Resource.OrgAssets, 'iframeResizer.min.js')}"/>
+
+	<!-- SEE FOR MORE INFORMATION ABOUT REMOTE OBJECTS -->
+	<!-- https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_remote_objects_example_simple.htm -->
 	<apex:remoteObjects jsNamespace="JSObjects">
 		<apex:remoteObjectModel name="Account" fields="Name,Id" />
 	</apex:remoteObjects>
@@ -22,7 +25,7 @@
 			right:0;
 			z-index: 1000;
 			background: #ccc;
-			background:url(http://sierrafire.cr.usgs.gov/images/loading.gif) center center no-repeat;
+			background:url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif) center center no-repeat;
 		}
 	</style>
 
