@@ -54,6 +54,7 @@ module.exports = function(defaults) {
 	app.import('vendor/jquery.min.js');
 	app.import('vendor/validatr.min.js');
 	app.import('vendor/iframeResizer.min.js');
+	app.import('bower_components/he/he.js');
 
 	return app.toTree();
 };

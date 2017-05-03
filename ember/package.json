@@ -1,7 +1,7 @@
 {
-	"name": "beacon",
+	"name": "ember-lab",
 	"version": "0.0.0",
-	"description": "My Local Beacon Salesforce Client",
+	"description": "Ember Lab Salesforce Client",
 	"author": "Billow Labs: Michael Huensch",
 	"license": "MIT",
 	"directories": {

@@ -18,8 +18,8 @@ Router.map(function() {
     this.route('m');
   });
   this.route('style-guide');
-  this.route('account', { path: '/accounts/:post_id' });
-  this.route('accounts');
+  this.route('account', { path: '/accounts/:id' }, function() {});
+  this.route('accounts', function() {});
 });
 
 export default Router;

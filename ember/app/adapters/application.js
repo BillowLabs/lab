@@ -40,7 +40,7 @@ var adapter = DS.RESTAdapter.extend({
 					reject(err);
 				} else {
 					var result = {}
-					result[type.modelName] = convert(data[0])
+					result[type.modelName] = convertToJs(data[0])
 					resolve(result);
 				}
 			})
@@ -48,148 +48,129 @@ var adapter = DS.RESTAdapter.extend({
 
 	},
 
-	// findAll: function(store, type, sinceToken) {
-	findAll: function() {
-		return this._super(...arguments)
+	findAll: function(store, type, sinceToken) {
+		if (!this.sfconn) {
+			return this._super(...arguments)
+		}
+
+		return new Ember.RSVP.Promise((resolve, reject) => {
+			var obj = new this.sfconn[capitalize(type.modelName)]();
+			return obj.retrieve(function(err, data){
+				if (err) {
+					reject(err);
+				} else {
+					var result = {}
+					result[type.modelName + 's'] = data.map(a => convertToJs(a))
+					console.log(result)
+					resolve(result);
+				}
+			})
+		});
 	},
 
-	// createRecord: function(store, type, snapshot) {
-	createRecord: function() {
-		return this._super(...arguments)
+	createRecord: function(store, type, snapshot) {
+		console.log('Attempting to create ' + type.modelName)
+		if (!this.sfconn) {
+			return this._super(...arguments)
+		}
+
+		var model = this.serialize(snapshot, {includeId: false});
+		return new Ember.RSVP.Promise((resolve, reject) => {
+			var obj = new this.sfconn[capitalize(type.modelName)]();
+			return obj.create(convertToSf(model), function(err, data){
+				if (err) {
+					reject(err);
+				} else {
+					// TODO: fix this ref to a private var with the correct prop
+					store.updateId(snapshot._internalModel, {id:  data[0]});
+					console.log('CREATED', snapshot._internalModel)
+					resolve(snapshot._internalModel);
+				}
+			})
+		});
+
 	},
 
-	// updateRecord: function (store, type, snapshot) {
-	updateRecord: function () {
-		return this._super(...arguments)
+
+	updateRecord: function (store, type, snapshot) {
+		console.log('Attempting to update ' + type.modelName)
+		if (!this.sfconn) {
+			return this._super(...arguments)
+		}
+
+		var model = this.serialize(snapshot, {includeId: true});
+		var id = model.id
+		delete model.id
+		console.log('USING', model)
+
+		return new Ember.RSVP.Promise((resolve, reject) => {
+			var obj = new this.sfconn[capitalize(type.modelName)]();
+			return obj.update([id], convertToSf(model), function(err, data){
+				if (err) {
+					reject(err);
+				} else {
+					console.log('UPDATED', data[0])
+					resolve(model);
+				}
+			})
+		});
 	},
 
-	// deleteRecord: function (store, type, snapshot) {
-	deleteRecord: function () {
-		return this._super(...arguments)
+
+	deleteRecord: function (store, type, snapshot) {
+		console.log('Attempting to delete ' + type.modelName)
+		if (!this.sfconn) {
+			return this._super(...arguments)
+		}
+
+		var model = this.serialize(snapshot, {includeId: true});
+		return new Ember.RSVP.Promise((resolve, reject) => {
+			var obj = new this.sfconn[capitalize(type.modelName)]();
+			return obj.del([model.id], function(err, data){
+				if (err) {
+					reject(err);
+				} else {
+					console.log('DELETED', data[0])
+					resolve(data[0]);
+				}
+			})
+		});
 	}
 
 });
 
-function convert(data) {
+
+
+
+
+function convertToJs(data) {
 	if(!data) {
 		return null
 	}
 
 	var result = {}
 	for(var prop in data._props) {
-		result[camelize(prop)] = data.get(prop)
+		result[camelize(prop)] = he.decode(data.get(prop))
 	}
+	return result
+}
+
+
+function convertToSf(data) {
+	if(!data) {
+		return null
+	}
+
+	var result = {}
+	Object.getOwnPropertyNames(data).forEach(prop => {
+		result[capitalize(prop)] = data[prop]
+	})
 	return result
 }
 
 
 export default adapter;
 
-
-
-
-
-
-
-// 	findAll: function(store, type, sinceToken) {
-//
-// 		var fields = ['Id'];
-// 		type.eachAttribute(function(name, meta) {
-// 			if (name !== 'attributes') {
-// 				fields.push(name);
-// 			}
-// 		});
-//
-// 		type.eachRelationship(function(relationshipName, descriptor) {
-// 			var kind = descriptor.kind;
-// 			var relatedModel = store.modelFor(descriptor.type);
-//
-// 			/**
-// 			 * belongsTo:
-// 			 *
-// 			 * SELECT Id, Name, Account.id, Account.Name FROM Opportunity WHERE Id = 'X'
-// 			 */
-// 			if (kind === "belongsTo") {
-// 				fields.push(relationshipName + ".Id");
-//
-// 				relatedModel.eachAttribute(function(fname, meta) {
-// 					var relatedField = relationshipName + "." + fname;
-// 					if (fname !== 'attributes') {
-// 						fields.push(relatedField);
-// 					}
-// 				});
-//
-// 			} else if (kind === "hasMany") {
-// 				/**
-// 				 * hasMany:
-// 				 *
-// 				 * SELECT Id, Name, (SELECT Id, Name FROM Opportunities) FROM Account WHERE Id = 'X'
-// 				 */
-// 				var subquery_fields = [];
-// 				subquery_fields.push("Id");
-// 				relatedModel.eachAttribute(function(fname, meta) {
-// 					if (fname !== 'attributes') {
-// 						subquery_fields.push(fname);
-// 					}
-// 				});
-// 				var subquery = '(SELECT ' + subquery_fields.join(', ') + " FROM " + relationshipName + ')';
-// 				fields.push(subquery);
-// 			}
-// 		});
-//
-// 		return new Ember.RSVP.Promise((resolve, reject) => {
-//
-// 			var soql = "SELECT " + fields.join(', ') + " FROM " + capitalize(type.modelName);
-// 			console.log(soql);
-// 			return this.sfconn.query(soql, function(err, result) {
-// 				if (err) {
-// 					console.log(err);
-// 					reject(result);
-// 					return;
-// 				}
-//
-// 				console.log("total : ", result.totalSize);
-// 				console.log("fetched : ", result.records.length);
-// 				console.log("done ? : ", result.done);
-// 				if (!result.done) {
-// 					// you can use the locator to fetch next records set.
-// 					// Connection#queryMore()
-// 					console.log("next records URL : ", result.nextRecordsUrl);
-// 				}
-//
-// 				resolve(result.records);
-// 			});
-// 		});
-// 	},
-
-
-
-// 	createRecord: function(store, type, snapshot) {
-// 		// var data = {};
-// 		// var serializer = store.serializerFor(type.modelName);
-// 		// serializer.serializeIntoHash(data, type, record, { includeId: true });
-//
-// 		var data = this.serialize(snapshot, { includeId: true });
-//
-// 		console.log("Create : ", type, " with ", data);
-//
-// 		return new Ember.RSVP.Promise((resolve, reject) => {
-// 			// Single record creation
-// 			this.sfconn.sobject(capitalize(type.modelName)).create(data, function(err, ret) {
-// 				if (err || !ret.success) {
-// 					console.log(err, ret);
-// 					reject(ret);
-// 				} else {
-// 					console.log("Created record id : ", ret.id);
-// 					// ...
-// 					if (ret.success === true) {
-// 						console.log('resolve', ret);
-// 						resolve(ret);
-// 					}
-// 				}
-// 			});
-// 		});
-// 	},
 
 
 

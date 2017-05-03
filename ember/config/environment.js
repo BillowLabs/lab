@@ -2,8 +2,8 @@
 
 module.exports = function(environment) {
 	var ENV = {
-		modulePrefix: 'beacon',
-		podModulePrefix: 'beacon/pods',
+		modulePrefix: 'ember-lab',
+		podModulePrefix: 'ember-lab/pods',
 		environment: environment,
 		baseURL: '/',
 		locationType: 'hash',

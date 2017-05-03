@@ -1,9 +1,13 @@
 Account list here
 
+<button {{action "createNewTestAccount"}} >New</button>
+
 <ul>
 	{{#each model as |account| }}
 		<li>
-			{{account.name}}
+			{{#link-to "account" account}}{{account.name}}{{/link-to}}
+			<button {{action "deleteAccount" account}}>Delete</button>
+			<button {{action "renameAccount" account}}>Rename</button>
 		</li>
 	{{/each}}
 </ul>
