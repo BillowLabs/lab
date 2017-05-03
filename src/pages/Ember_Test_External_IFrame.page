@@ -5,7 +5,10 @@
 	<!-- SEE FOR MORE INFORMATION ABOUT REMOTE OBJECTS -->
 	<!-- https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_remote_objects_example_simple.htm -->
 	<apex:remoteObjects jsNamespace="JSObjects">
-		<apex:remoteObjectModel name="Account" fields="Name,Id" />
+		<apex:remoteObjectModel name="Account" jsShorthand="account">
+			<apex:remoteObjectField name="Name" jsShorthand="name"/>
+			<apex:remoteObjectField name="Active__c" jsShorthand="active"/>
+		</apex:remoteObjectModel>
 	</apex:remoteObjects>
 
 
