@@ -5,7 +5,7 @@ Account list here
 <ul>
 	{{#each model as |account| }}
 		<li>
-			{{#link-to "account" account}}{{account.name}}{{/link-to}}
+			{{#link-to "account" account}}{{account.name}} {{account.active}}{{/link-to}}
 			<button {{action "deleteAccount" account}}>Delete</button>
 			<button {{action "renameAccount" account}}>Rename</button>
 		</li>
